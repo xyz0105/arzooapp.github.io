@@ -12,7 +12,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - Information boxes pop up on the interface
 - Include game
 - Voice over
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### Finalized Project Ideas
+1. Start with a map for user interface
+  -Maybe have a 3D animal guiding the user
+2. Click on location for exhibit
+  -Scan sticker for 3D movable animal to pop up
+3. Text appears on screen
+4. Icon click on for voice over of fun facts
+
 
 ```markdown
 Syntax highlighted code block
