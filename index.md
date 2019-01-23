@@ -15,9 +15,9 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Finalized Project Ideas
 1. Start with a map for user interface
-  -Maybe have a 3D animal guiding the user
+- Maybe have a 3D animal guiding the user
 2. Click on location for exhibit
-  -Scan sticker for 3D movable animal to pop up
+- Scan sticker for 3D movable animal to pop up
 3. Text appears on screen
 4. Icon click on for voice over of fun facts
 
