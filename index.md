@@ -7,6 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Project Ideas
 - 3D animals that the camera displays
 - Stickers for scanning
+- AR animated animals leading people around zoo
 - GPS and Navigational Tools with Map of zoo
 - Information boxes pop up on the interface
 - Include game
