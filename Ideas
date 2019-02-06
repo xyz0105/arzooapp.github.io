@@ -1,0 +1,27 @@
+/*Idea #1: Scavenger Hunt  
+The app would present a map of the zoo when it is opened. The user would then be tasked with going to certain exhibits, where he/she could get information about the animal.
+This app could be run on zoo IPads and given to a class of students, or made available for anyone to download.
+The information gathered from each exhibit must be used to solve a mystery or some sort of disguised test.*/
+
+/*Idea #2: Natural Behavior
+When a sticker or QR code is scanned, a 3D animal of an animal will appear on the screen displaying natural behaviors.
+The animal can be rotated on screen.
+Animals in zoos often do not display natural behaviors due to being in captivity.
+Sometimes, animals hide away from people due to natural shyness or environmental factors, but having a 3D animal would mean people would always be able to learn about them.*/
+
+/*Idea #3: Map
+Animated animals guide people to their exhibits.
+Animals are projected onto the ground in Augmented Reality.
+Complex:
+  Animals should walk along the ground as the user moves
+  Animal needs to be able to stop before going out of sight, not project through corners, walk at around the same speed as the user
+  Requires map implementation, routing programs
+  Different animals for each exhibit could cause the difficulty of animation to compound
+Would work best to guide the user along a set path, such as a specific tour.
+More suitable for a teen or adult audience.*/
+
+/*Idea #4: Animal Information
+The app could have information about the different animals featured on the app/in the zoo
+It would include information such as diet, behavior, habitat, fun facts
+It could also incorporate a voice over that reads out the information
+The information could be customized based on the reader, ex: Adult, student, kid.*/
