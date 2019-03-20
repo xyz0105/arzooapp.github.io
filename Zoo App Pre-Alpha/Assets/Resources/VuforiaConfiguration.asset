@@ -11,9 +11,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
-  m_EditorClassIdentifier:
+  m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey:
+    vuforiaLicenseKey: 
     ufoLicenseKey: QVF4QnRxci8vLy8vQUFBQUtCeUtYVjBJelVKYmdGUkxJQXBGd3BCRGdLR09VQXl5d1hWZDlLUEtscUVSZjJjTUlvNDVGdTBLNU9PN3VrejFBbkxkSWZxcFRBNGUwVkptTzFIako1SlpTUVo1TTloNWVqVnQyTXlnNGhGUzh3TjhQZjk1MWN6WTY4eDlkNlYyOHBxa1dER3ZwZEVqSmcxVHRFQUdJSk5OUEg2d2I4NE9PMTBmQmI3M1NoYVRFKzhOTXBJblhUcFE2R3A0eFBwRHMrS3JwUjg0d1FlSEVHc3pDVUx0NnZjcGJibTFGeHc3bnNrbk5wK0JCdytuQTZURXJBK3h5b2Q2RTZIMEdETDBlakNYR1JIRUFKNkNLeE5vUDhoY0poVkxqRE95RXllZ2FMOGd2c1RHU2RqcjZHN2VNMDUvbVZia0JjaXNnaE9VemZ3OCtwMTZWaXZWOTdpWFg5ZU54TnptZE82VmY3Ny85YlFoeEU0cUUwdGk=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -30,13 +30,13 @@ MonoBehaviour:
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName:
-    viewerManufacturer:
+    viewerName: 
+    viewerManufacturer: 
     useCustomViewer: 0
     customViewer:
       Version: 0
-      Name:
-      Manufacturer:
+      Name: 
+      Manufacturer: 
       ButtonType: 0
       ScreenToLensDistance: 0
       InterLensDistance: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor:
+    deviceNameSetInEditor: 
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30
