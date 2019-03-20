@@ -14,4 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: 3bd06065c73bc274592ca81e24db8e2a
+  - enabled: 1
+    path: Assets/Scenes/ARScene.unity
+    guid: 73d4329e0f5581345a1914b2ab502620
+  - enabled: 1
+    path: Assets/Scenes/Questions.unity
+    guid: 5f3d90db4519a4f4db8c2cba31c03a65
+  - enabled: 1
+    path: Assets/Scenes/Correct.unity
+    guid: 96b8ac7fd6e72674cb4c15ee1a8206d7
+  - enabled: 1
+    path: Assets/Scenes/Incorrect.unity
+    guid: eac701d6deb791249a428a12ef2ca617
+  - enabled: 1
+    path: Assets/Scenes/Scanner.unity
+    guid: 5f7ee73c002d8d84c96d385091f12d4c
+  - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: a91db0f8291a4944ba44436a62c2881e
   m_configObjects: {}
