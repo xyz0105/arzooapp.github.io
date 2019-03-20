@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: 0}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-    ufoLicenseKey: QWZqa0JKTC8vLy8vQUFBQUtQVDRxdG9XQmtNNG1yMTUyT05YVnlNL0V0c21vVDBRb0FpZERjWlVNZllmQ2lqc25hVjJGZEdEeXdvVlBRRForbnZ1YVQvMU9RT243WGMzWnBRMm54eERINTMxKzFwMHJrd3p6OUNndkJ6RjN4Umh2aWNwRThzNW1EczNDYzVwRHo5ZVJJNndJUTNHeHArVUdJNVJkaFdtYzdjRXJBd2UzTWZtcUNIaTNVaHZKNmFRUkxFVjc5VlFjOHYxblZqVXNpTkpFblZFTjhxeE85ZndodlZXdmhRbU9KOW42ckFjNVBGOG41L2lPZkhBS25vNzNMMzBtVlJOZkRaNGxjR2Fzc1ZZczZVUjZTZVptQkhqZElIMSsvMzFTUytMbXF4cGNlU3JIcmkzVjZGc21uN1ZleXo5ZFgvSHRqQVZhVDExRmpVZFM3TS9WMjJRV3VqdHpSWTZFY3p2SUZ6RUlPelhVZkJlajhvQnBQaGI=
+    ufoLicenseKey: QVpDbEZtNy8vLy8vQUFBQUtNRVZtdmtxblVXa2dHODMzbU91ODY1OS94SGJBcVZrQWJpZnJPZ0sxZXMyT1FIWHRXSUx4SDZaQXNOcW9kdE56amk1c3I5MWk3TnJKbnpaREhQd0tobHlnKzlXSENGbHA5WXZZOXNraHlDallGTmpSMFdVdTVvYzhJN2J5NFc4UzYramd3emRZOFJPbXFlMzlWdCtIdnZQcFZieWF3YXdIbWNyZDRDT3hiOVZlRklHZmtPMEROR3NEMWljd05HY0hDZDVhQk9sWHV1UVJ1M2NBdllIV05wN1NGWGl2N1pNRWZVT0lIcExLTlMzWVQ0TXMzNUpJRnUxV0kzWUh5RlE5d1gzbXhpSTU4UCs0RndrT0MrRFg4Um5zazRzMWJ6OEFmZitDZFNiNWRUWGhJeXptMUVCSFlTRmRLMVd0OEUxOFNvTThEcXpwQlpsSHk2dUVkb3YzYUVxajlwSHl4dmZ5S2lOeWFrWC9pRGc=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.5.26
+    version: 1.0.0
     eulaAcceptedVersions: '{"Values":["7.5"]}'
   digitalEyewear:
     cameraOffset: 0.06
