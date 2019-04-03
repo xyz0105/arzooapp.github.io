@@ -91,8 +91,8 @@ public class DefaultInitializationErrorHandler : VuforiaMonoBehaviour
         if (GUI.Button(footerRect, "Close", footerStyle))
         {
 #if UNITY_EDITOR
-                    UnityEditor.EditorApplication.isPlaying = false;
-    #else
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
             Application.Quit();
 #endif
         }
@@ -142,7 +142,7 @@ public class DefaultInitializationErrorHandler : VuforiaMonoBehaviour
                     "a license key created on or after August 9th, 2016.";
                 break;
             case VuforiaUnity.InitError.INIT_NO_CAMERA_ACCESS:
-                mErrorText = 
+                mErrorText =
                     "User denied Camera access to this app.\n" +
                     "To restore, enable Camera access in Settings:\n" +
                     "Settings > Privacy > Camera > " + Application.productName + "\n" +
@@ -209,7 +209,7 @@ public class DefaultInitializationErrorHandler : VuforiaMonoBehaviour
         bodyStyle = new GUIStyle();
         bodyStyle.normal.background = bodyTexture;
         bodyStyle.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
-        bodyStyle.fontSize = (int) (18 * physicalSizeMultiplier * Screen.dpi / 160);
+        bodyStyle.fontSize = (int)(18 * physicalSizeMultiplier * Screen.dpi / 160);
         bodyStyle.normal.textColor = Color.black;
         bodyStyle.wordWrap = true;
         bodyStyle.alignment = TextAnchor.MiddleCenter;
@@ -218,13 +218,13 @@ public class DefaultInitializationErrorHandler : VuforiaMonoBehaviour
         // Duplicate body style and change necessary values
         headerStyle = new GUIStyle(bodyStyle);
         headerStyle.normal.background = headerTexture;
-        headerStyle.fontSize = (int) (24 * physicalSizeMultiplier * Screen.dpi / 160);
+        headerStyle.fontSize = (int)(24 * physicalSizeMultiplier * Screen.dpi / 160);
 
         // Duplicate body style and change necessary values
         footerStyle = new GUIStyle(bodyStyle);
         footerStyle.normal.background = footerTexture;
         footerStyle.normal.textColor = Color.white;
-        footerStyle.fontSize = (int) (28 * physicalSizeMultiplier * Screen.dpi / 160);
+        footerStyle.fontSize = (int)(28 * physicalSizeMultiplier * Screen.dpi / 160);
     }
 
     Texture2D CreateSinglePixelTexture(Color color)
