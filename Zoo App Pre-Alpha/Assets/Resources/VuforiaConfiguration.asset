@@ -9,16 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
+  m_Script: {fileID: 0}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: 
-<<<<<<< HEAD
-    ufoLicenseKey: QVJsa2ZEYi8vLy8vQUFBQUtGTU82UG1iWkVoZm95WXJKaFRQMzhrUVYwZjdiWTBKYW51VGZUN1NMVWVTZ09rV1RPNk5NVG55c1gwTjB0VHlnWGZRTFdjVmFHT0RqdkN5U0VxUCtZZVlwRTBsZ3MwWS8zUkJjYzZuanErU21FYTJVOTNrQjRQSC9mTFArQmo5d3YwUlBmWGZ0Z2QrTkFBOXE0R0Z4Y2JkY01xV1dLS2c0azkvd1kwSGd4T2ZQdXJQb21YRWJ4ZHRJZ2dvaTI0UHdyWDJiT2dsbUdEMmZxYms3VU00K3lxWi93VmlWQUFDZkpvRGpNYlorUEZ5THFCYzY1bkEwZ0ZHK3BrN0Y3Z3B6ZVVHdlZUVXByOHMrUnRsVkp6WmwyeFJWYnFpMnA0QmxUVHdTTWdrTGtNN0VqYmN6aElvdnd2SGxsTzNTdHZYSUJhdnRENFhmdnhsN0RoZXFsQmwxMHNJbTZNUkF1dXNWZjdFV1BPZkdwVkg=
-=======
-    ufoLicenseKey: QVF4QnRxci8vLy8vQUFBQUtCeUtYVjBJelVKYmdGUkxJQXBGd3BCRGdLR09VQXl5d1hWZDlLUEtscUVSZjJjTUlvNDVGdTBLNU9PN3VrejFBbkxkSWZxcFRBNGUwVkptTzFIako1SlpTUVo1TTloNWVqVnQyTXlnNGhGUzh3TjhQZjk1MWN6WTY4eDlkNlYyOHBxa1dER3ZwZEVqSmcxVHRFQUdJSk5OUEg2d2I4NE9PMTBmQmI3M1NoYVRFKzhOTXBJblhUcFE2R3A0eFBwRHMrS3JwUjg0d1FlSEVHc3pDVUx0NnZjcGJibTFGeHc3bnNrbk5wK0JCdytuQTZURXJBK3h5b2Q2RTZIMEdETDBlakNYR1JIRUFKNkNLeE5vUDhoY0poVkxqRE95RXllZ2FMOGd2c1RHU2RqcjZHN2VNMDUvbVZia0JjaXNnaE9VemZ3OCtwMTZWaXZWOTdpWFg5ZU54TnptZE82VmY3Ny85YlFoeEU0cUUwdGk=
->>>>>>> 5d4f876551343dfe90cf9fb5a5e6ffddd1210d2f
+    ufoLicenseKey: QVpmMzNFbi8vLy8vQUFBQUtGSEdobVRnS1Vtem9QcndzYzFwVUhkOVJ4c0ozcUJEeGVDZXpvbnZXZEU5MGNjbmkrU3o3SWcxWlpicnZ3SWFCODJPVTZkRC9kaDhuczZvcS9EdFhkMzlIWDhLOWxIdWNKVEU0cDRaNHhuaVBKZXV3ZVpjaUEyOXJDMDNsL2dubUk5bzJwRkFXclFYK25oZkw0enA1MHlVYW9xRlRYQTBDWWpmS3dnbHk4U2ZnZHRwNm44Y3VEblQ4S3VMMXRjamt1cHVPajdnVTFuNHl2Nm1CVndYZ3NlN1ppRUw3MmJNK29yc2RNendxTFJFQ0c2VGtqZStic25qVHl0dW1mMXpoaFVVc1loQWZ6QmJEcXlxTS90UVRtQjBndi96enJqOWViZ1E4T01idlhUTkJKcnVpZi9OYkt3eW9tNDhoVkFoQkVMMDRYODFZQUk5S1ZpbFB6WjErb29ScXJrc0JqOHZRRkkwdGxLSXp1MkY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -26,7 +22,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.5.26
+    version: 1.0.0
     eulaAcceptedVersions: '{"Values":["7.5"]}'
   digitalEyewear:
     cameraOffset: 0.06
