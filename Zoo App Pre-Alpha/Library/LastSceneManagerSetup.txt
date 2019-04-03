@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Questions.unity
+=======
+- path: Assets/Scenes/Scanner.unity
+>>>>>>> 5d4f876551343dfe90cf9fb5a5e6ffddd1210d2f
   isLoaded: 1
   isActive: 1
