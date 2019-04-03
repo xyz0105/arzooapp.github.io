@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class BControl : MonoBehaviour
 {
-    //public static int currentLocation { get; private set; }
-    public int Question = 0;//currentLocation/*value from AR Scanner*/ - 1 * 5; //Pick starting question
     public Text answer;
     private bool correctanswer;
 
@@ -22,30 +20,25 @@ public class BControl : MonoBehaviour
     void Update()
     {
         //Set text and whether or not it's the right answer depending on which question is loaded.
-        if (Question == 0)
+        if (PlayerPrefs.GetInt("Question") == 0)
         {
             answer.text = "B0";
             correctanswer = false;
         }
-        if (Question == 1)
+        if (PlayerPrefs.GetInt("Question") == 1)
         {
             answer.text = "B1";
             correctanswer = true;
         }
-        if (Question == 2)
+        if (PlayerPrefs.GetInt("Question") == 2)
         {
             answer.text = "B2";
             correctanswer = false;
         }
-        if (Question == 3)
+        if (PlayerPrefs.GetInt("Question") == 3)
         {
             answer.text = "B3";
             correctanswer = false;
-        }
-        //Debugging tool, moves directly to next question when space is pressed
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Question = Question + 1;
         }
     }
         public void ChangeToScene(int changeTheScene) {

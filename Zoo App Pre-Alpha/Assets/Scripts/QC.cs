@@ -6,8 +6,6 @@ using UnityEngine.UI;
 
 public class QC : MonoBehaviour
 {
-    //public static int currentLocation { get; private set; }
-    public int Question = 0;//currentLocation/*value from AR Scanner*/ - 1 * 5; //Pick starting question based on where the user is
     public Text question;
 
     // Start is called before the first frame update
@@ -20,26 +18,28 @@ public class QC : MonoBehaviour
     void Update()
     {
         //Chooses text to display based on the question number
-        if (Question == 0)
+        if (PlayerPrefs.GetInt("Question") == 0)
         {
             question.text = "Sample Question 0, Ans A";
         }
-        if (Question == 1)
+        if (PlayerPrefs.GetInt("Question") == 1)
         {
             question.text = "Sample Question 1, Ans B";
         }
-        if (Question == 2)
+        if (PlayerPrefs.GetInt("Question") == 2)
         {
             question.text = "Sample Question 2, Ans C";
         }
-        if (Question == 3)
+        if (PlayerPrefs.GetInt("Question") == 3)
         {
             question.text = "Sample Question 3, Ans D";
         }
-        //Debugging tool, moves directly to next question when space is pressed
+        //Debugging tool, resets question # to 0
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Question = Question + 1;
+            PlayerPrefs.SetInt("Question", 0);
+            PlayerPrefs.SetInt("Rights", 0);
+            PlayerPrefs.SetInt("Wrongs", 0);
         }
     }
 }
