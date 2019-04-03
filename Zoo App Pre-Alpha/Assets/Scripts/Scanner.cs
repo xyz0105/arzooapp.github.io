@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class Scanner : MonoBehaviour, ITrackableEventHandler
 {
@@ -11,6 +13,8 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
     
     public int ScannedTarget;
     public GameObject referenceObject;
+    public GameObject textBox;
+    public string animal;
     
 
     void Start()
@@ -32,12 +36,18 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
 
             ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
             scorePointsScript.AnimalScanned(ScannedTarget);
+            animal = "You have scanned the " + animal + "!";
+
+            Text animalText = textBox.GetComponent<Text>();
+            animalText.text = animal;
+
+            StartCoroutine(ToQuestion());
+
 
             print("Found it!");
-            SceneManager.LoadScene(3);
         }
-       
     }
-
-   
+    IEnumerator ToQuestion() { yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(3);
+    }
 }
