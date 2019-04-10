@@ -36,6 +36,7 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
 
             ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
             scorePointsScript.AnimalScanned(ScannedTarget);
+            //PlayerPrefs.SetInt(");
             animal = "You have scanned the " + animal + "!";
 
             Text animalText = textBox.GetComponent<Text>();

@@ -1,1 +1,8 @@
-
+*.cache
+*.suo
+LastSceneManagerSetup.txt
+CurrentLayout.dwlt
+Assembly-CSharp.dll
+Assembly-CSharp.pdb
+storage.ide-shm
+storage.ide-wal
