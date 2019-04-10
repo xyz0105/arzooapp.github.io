@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: -2067402452, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
-    ufoLicenseKey: QVpmMzNFbi8vLy8vQUFBQUtGSEdobVRnS1Vtem9QcndzYzFwVUhkOVJ4c0ozcUJEeGVDZXpvbnZXZEU5MGNjbmkrU3o3SWcxWlpicnZ3SWFCODJPVTZkRC9kaDhuczZvcS9EdFhkMzlIWDhLOWxIdWNKVEU0cDRaNHhuaVBKZXV3ZVpjaUEyOXJDMDNsL2dubUk5bzJwRkFXclFYK25oZkw0enA1MHlVYW9xRlRYQTBDWWpmS3dnbHk4U2ZnZHRwNm44Y3VEblQ4S3VMMXRjamt1cHVPajdnVTFuNHl2Nm1CVndYZ3NlN1ppRUw3MmJNK29yc2RNendxTFJFQ0c2VGtqZStic25qVHl0dW1mMXpoaFVVc1loQWZ6QmJEcXlxTS90UVRtQjBndi96enJqOWViZ1E4T01idlhUTkJKcnVpZi9OYkt3eW9tNDhoVkFoQkVMMDRYODFZQUk5S1ZpbFB6WjErb29ScXJrc0JqOHZRRkkwdGxLSXp1MkY=
+    vuforiaLicenseKey: Af6WvBT/////AAABmX+TPLBxLUBxh+rP/vzDIAd1pEpmDrBFNy2wAUrUI6l044zjM5SiS6ptqJIaU0TA91uhXuL0QKm2TbNlgZp2w81T9pCOX5jdD8/clECGoA3cWYKQnX8htTxPUM90IRLp0rC6rOqJKpHulOFXSQh4/hSQg+IpqUcNgCOEoQPTFeJySwmwgxHv1bol+UFbRprXRIK333Ur3WIDl5weHgF5x26xU5LGZ+iPBWPGsCh4s4M97zCSak/7/Yi+hUfbp7R2dx/A0TMq7Z/zjeynFQO/GFh3d+6kZ/rYZNhTK/GDH4mtHYeo5tdruuNdxlHRmHZrWqJvnp07rPY3MgMDkjoQ/VQSRXemg36CArXELfo/0Uq9
+    ufoLicenseKey: QVF4QnRxci8vLy8vQUFBQUtCeUtYVjBJelVKYmdGUkxJQXBGd3BCRGdLR09VQXl5d1hWZDlLUEtscUVSZjJjTUlvNDVGdTBLNU9PN3VrejFBbkxkSWZxcFRBNGUwVkptTzFIako1SlpTUVo1TTloNWVqVnQyTXlnNGhGUzh3TjhQZjk1MWN6WTY4eDlkNlYyOHBxa1dER3ZwZEVqSmcxVHRFQUdJSk5OUEg2d2I4NE9PMTBmQmI3M1NoYVRFKzhOTXBJblhUcFE2R3A0eFBwRHMrS3JwUjg0d1FlSEVHc3pDVUx0NnZjcGJibTFGeHc3bnNrbk5wK0JCdytuQTZURXJBK3h5b2Q2RTZIMEdETDBlakNYR1JIRUFKNkNLeE5vUDhoY0poVkxqRE95RXllZ2FMOGd2c1RHU2RqcjZHN2VNMDUvbVZia0JjaXNnaE9VemZ3OCtwMTZWaXZWOTdpWFg5ZU54TnptZE82VmY3Ny85YlFoeEU0cUUwdGk=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -22,7 +22,7 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 1.0.0
+    version: 7.5.26
     eulaAcceptedVersions: '{"Values":["7.5"]}'
   digitalEyewear:
     cameraOffset: 0.06
