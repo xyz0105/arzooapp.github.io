@@ -1,0 +1,2 @@
+C:\Users\jonestj2\Documents\GitHub\arzooapp.github.io\Zoo App Pre-Alpha\obj\Debug\VuforiaScripts.csprojAssemblyReference.cache
+C:\Users\jonestj2\Documents\GitHub\arzooapp.github.io\Zoo App Pre-Alpha\obj\Debug\VuforiaScripts.csproj.CoreCompileInputs.cache
