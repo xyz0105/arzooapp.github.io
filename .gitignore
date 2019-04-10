@@ -1,8 +1,13 @@
 *.cache
 *.suo
-LastSceneManagerSetup.txt
-CurrentLayout.dwlt
-Assembly-CSharp.dll
-Assembly-CSharp.pdb
-storage.ide-shm
-storage.ide-wal
+
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Assembly-CSharp.dll
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Assembly-CSharp.dll
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Zoo App Pre-Alpha/Library/shadercompiler-UnityShaderCompiler.exe0.log
+Zoo App Pre-Alpha/Library/CurrentLayout.dwlt
+Zoo App Pre-Alpha/Library/LastSceneManagerSetup.txt
