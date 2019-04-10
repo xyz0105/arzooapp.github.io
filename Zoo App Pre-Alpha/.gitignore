@@ -5,7 +5,14 @@
 [Bb]uilds/
 Assets/AssetStoreTools*
 
-
+*.cache
+*.suo
+LastSceneManagerSetup.txt
+CurrentLayout.dwlt
+Assembly-CSharp.dll
+Assembly-CSharp.pdb
+storage.ide-shm
+storage.ide-wal
 
 # Unity3D generated meta files
 *.pidb.meta
