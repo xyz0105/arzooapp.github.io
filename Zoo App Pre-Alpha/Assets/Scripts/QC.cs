@@ -7,11 +7,13 @@ using UnityEngine.UI;
 public class QC : MonoBehaviour
 {
     public Text question;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         question.text = "";
+        
     }
 
     // Update is called once per frame
