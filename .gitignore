@@ -11,3 +11,8 @@ Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
 Zoo App Pre-Alpha/Library/shadercompiler-UnityShaderCompiler.exe0.log
 Zoo App Pre-Alpha/Library/CurrentLayout.dwlt
 Zoo App Pre-Alpha/Library/LastSceneManagerSetup.txt
+*.cache
+*.cache
+*.cache
+Zoo App Pre-Alpha/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+*.cache
