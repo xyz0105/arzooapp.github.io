@@ -34,8 +34,28 @@ public class QC : MonoBehaviour
         {
             question.text = "Sample Question 3, Ans D";
         }
+        if (PlayerPrefs.GetInt("Question") == 4)
+        {
+            question.text = "Sample Question 4, Ans A";
+        }
+        if (PlayerPrefs.GetInt("Question") == 5)
+        {
+            question.text = "Sample Question 5, Ans B";
+        }
+        if (PlayerPrefs.GetInt("Question") == 6)
+        {
+            question.text = "Sample Question 6, Ans C";
+        }
+        if (PlayerPrefs.GetInt("Question") == 7)
+        {
+            question.text = "Sample Question 7, Ans D";
+        }
+        if (PlayerPrefs.GetInt("Question") == 8)
+        {
+            question.text = "Sample Question 8, Ans A";
+        }
         //Debugging tool, resets question # to 0
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             PlayerPrefs.SetInt("Question", 0);
             PlayerPrefs.SetInt("Rights", 0);

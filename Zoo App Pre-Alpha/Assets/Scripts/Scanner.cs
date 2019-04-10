@@ -15,7 +15,7 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
     public GameObject referenceObject;
     public GameObject textBox;
     public string animal;
-    
+    private bool done;
 
     void Start()
     {
@@ -30,23 +30,28 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
                                     TrackableBehaviour.Status previousStatus,
                                     TrackableBehaviour.Status newStatus)
     {
-        if (newStatus == TrackableBehaviour.Status.DETECTED ||
-            newStatus == TrackableBehaviour.Status.TRACKED)
+        if (done == false)
         {
 
-            ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
-            scorePointsScript.AnimalScanned(ScannedTarget);
+            if (newStatus == TrackableBehaviour.Status.DETECTED ||
+                newStatus == TrackableBehaviour.Status.TRACKED)
+            {
 
-            PlayerPrefs.SetInt("Question", ScannedTarget);
-            animal = "You have scanned the " + animal + "!";
+                ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
+                scorePointsScript.AnimalScanned(ScannedTarget);
 
-            Text animalText = textBox.GetComponent<Text>();
-            animalText.text = animal;
+                PlayerPrefs.SetInt("Question", ScannedTarget);
+                done = true;
+                animal = "You have scanned the " + animal + "!";
 
-            StartCoroutine(ToQuestion());
+                Text animalText = textBox.GetComponent<Text>();
+                animalText.text = animal;
+
+                StartCoroutine(ToQuestion());
 
 
-            print("Found it!");
+                print("Found it!");
+            }
         }
     }
     IEnumerator ToQuestion() { yield return new WaitForSeconds(3);

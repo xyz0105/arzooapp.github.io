@@ -40,6 +40,31 @@ public class AControl : MonoBehaviour
             answer.text = "A3";
             correctanswer = false;
         }
+        if (PlayerPrefs.GetInt("Question") == 4)
+        {
+            answer.text = "A4";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 5)
+        {
+            answer.text = "A5";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 6)
+        {
+            answer.text = "A6";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 7)
+        {
+            answer.text = "A7";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 8)
+        {
+            answer.text = "A8";
+            correctanswer = true;
+        }
     }
         public void ChangeToScene(int changeTheScene) {
         //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
