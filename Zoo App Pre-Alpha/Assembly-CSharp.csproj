@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\AccuracyMath.cs" />
     <Compile Include="Assets\Scripts\AControl.cs" />
     <Compile Include="Assets\Scripts\BControl.cs" />
     <Compile Include="Assets\Scripts\ButtonPressed.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Assets\Scripts\Scanner.cs" />
     <Compile Include="Assets\Scripts\SceneControl.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Scripts\WRATMath.cs" />
     <Compile Include="Assets\Scripts\WrongControl.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
