@@ -40,6 +40,31 @@ public class CControl : MonoBehaviour
             answer.text = "C3";
             correctanswer = false;
         }
+        if (PlayerPrefs.GetInt("Question") == 4)
+        {
+            answer.text = "C4";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 5)
+        {
+            answer.text = "C5";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 6)
+        {
+            answer.text = "C6";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 7)
+        {
+            answer.text = "C7";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 8)
+        {
+            answer.text = "C8";
+            correctanswer = false;
+        }
     }
     public void ChangeToScene(int changeTheScene)
     {
