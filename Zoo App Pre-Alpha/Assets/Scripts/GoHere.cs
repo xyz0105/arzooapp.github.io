@@ -37,11 +37,16 @@ public class GoHere : MonoBehaviour
     {
         if (CheckCompletion(1) == true) { print(" Panda completed"); }
         if (CheckCompletion(2) == true) { print(" Leopard completed"); }
-        if(Input.GetKeyDown(KeyCode.Space))
+
+        //debug tool to reset all progress
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             PlayerPrefs.SetInt("Unlocked1", 0);
             PlayerPrefs.SetInt("Unlocked2", 0);
             PlayerPrefs.SetInt("Unlocked3", 0);
+            PlayerPrefs.SetInt("Rights", 0);
+            PlayerPrefs.SetInt("Wrongs", 0);
+            PlayerPrefs.SetInt("Question", 0);
             print("All progress reset");
         }
 
