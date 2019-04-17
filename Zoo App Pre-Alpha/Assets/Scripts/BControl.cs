@@ -22,18 +22,18 @@ public class BControl : MonoBehaviour
         //Set text and whether or not it's the right answer depending on which question is loaded.
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "B0";
+            answer.text = "Gazelles";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = "B1";
-            correctanswer = true;
+            answer.text = "Lemonade";
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            answer.text = "B2";
-            correctanswer = false;
+            answer.text = "Asia and Africa";
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {

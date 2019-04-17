@@ -22,17 +22,17 @@ public class DControl : MonoBehaviour
         //Set text and whether or not it's the right answer depending on which question is loaded.
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "D0";
+            answer.text = "Zebra";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = "D1";
-            correctanswer = false;
+            answer.text = "Shade";
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            answer.text = "D2";
+            answer.text = "Asia and Australia";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 3)

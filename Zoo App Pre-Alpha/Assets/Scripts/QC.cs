@@ -22,15 +22,15 @@ public class QC : MonoBehaviour
         //Chooses text to display based on the question number
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            question.text = "Sample Question 0, Ans A";
+            question.text = "What do Southern White Rhinos like to eat?";
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            question.text = "Sample Question 1, Ans B";
+            question.text = "What do Rhinos use to cool off on hot days?";
         }
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            question.text = "Sample Question 2, Ans C";
+            question.text = "In what continents are Southern White Rhinos naturally found?";
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {

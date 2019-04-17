@@ -22,17 +22,17 @@ public class CControl : MonoBehaviour
         //Set text and whether or not it's the right answer depending on which question is loaded.
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "C0";
+            answer.text = "Fish";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = "C1";
-            correctanswer = false;
+            answer.text = "Mud";
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            answer.text = "C2";
+            answer.text = "Africa and South America";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 3)
