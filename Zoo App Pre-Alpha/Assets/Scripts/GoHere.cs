@@ -2,34 +2,42 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GoHere : MonoBehaviour
 {
 
     Vector3 PlayerLocation;
     public int location = 2;
     private int currentLocation;
+    
 
     /*
         Location Table:
        Integer "location code" for location, name of location, and Coordinates
 
        0 Offscreen
-       1 Panda (43, -56)
-       2 Leopard (-180, -37)
-       3 Rhino (57, 47)
+       1 Red Panda (-192, -29)
+       2 Clouded Leopard (-180, -37)
+       3 Rhino (138, 132)
 
         */
     // The target next location selects 
     void Start()
     {
+        
         // PlayerPrefs.SetInt("Unlocked1", 0);
         // PlayerPrefs.SetInt("Unlocked2", 0);
         // PlayerPrefs.SetInt("Unlocked3", 0);
         // sets current location to the location code that corrosponds to the last question asked
         currentLocation = (PlayerPrefs.GetInt("Question") / 3) + 1;
-        // imputs current location into TestCompletion function
-        TestCompletion(currentLocation);
-
+        // if no progress is detected it sends the player to a random point
+        if (PlayerPrefs.GetInt("Question") == 0 && PlayerPrefs.GetInt("Unlocked3") == 0 && PlayerPrefs.GetInt("Unlocked0") == 0 ) { print("No progress detected"); TestCompletion(Random.Range(1, 4)); }
+        // otherwise, imputs current location into TestCompletion function
+        else
+        {
+            TestCompletion(currentLocation);
+        }
+        
         
     }
 
@@ -65,7 +73,7 @@ public class GoHere : MonoBehaviour
     void MoveSign(int locationCode)
     {
      
-            Vector3[] xcoordinates = new[] { new Vector3(1000.0f, 0.0f, 0.0f), new Vector3(43.0f, -56.0f, 0.0f), new Vector3(-180.0f, -38.0f, 0.0f), new Vector3(57.0f, 47.0f, 0.0f) };
+            Vector3[] xcoordinates = new[] { new Vector3(1000.0f, 0.0f, 0.0f), new Vector3(-192.0f, -29.0f, 0.0f), new Vector3(-134.0f, -46.0f, 0.0f), new Vector3(138.0f, 132.0f, 0.0f) };
             PlayerLocation = xcoordinates[locationCode];
             print("Sign is at location " + locationCode);
             GetComponent<RectTransform>().localPosition = PlayerLocation;
