@@ -22,9 +22,9 @@ public class GoHere : MonoBehaviour
     // The target next location selects 
     void Start()
     {
-        PlayerPrefs.SetInt("Unlocked1", 0);
-        PlayerPrefs.SetInt("Unlocked2", 0);
-        PlayerPrefs.SetInt("Unlocked3", 0);
+        // PlayerPrefs.SetInt("Unlocked1", 0);
+        // PlayerPrefs.SetInt("Unlocked2", 0);
+        // PlayerPrefs.SetInt("Unlocked3", 0);
         // sets current location to the location code that corrosponds to the last question asked
         currentLocation = (PlayerPrefs.GetInt("Question") / 3) + 1;
         // imputs current location into TestCompletion function
@@ -37,7 +37,14 @@ public class GoHere : MonoBehaviour
     {
         if (CheckCompletion(1) == true) { print(" Panda completed"); }
         if (CheckCompletion(2) == true) { print(" Leopard completed"); }
-        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            PlayerPrefs.SetInt("Unlocked1", 0);
+            PlayerPrefs.SetInt("Unlocked2", 0);
+            PlayerPrefs.SetInt("Unlocked3", 0);
+            print("All progress reset");
+        }
+
     }
     // Tests whether the location after the current location has been completed. If it has not, sends sign to that location. If it has, tests the location after the next one, etc. If the current location is the last one on the list (number 3), it loops back to location 1.
     void TestCompletion(int location)

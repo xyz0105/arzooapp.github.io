@@ -15,5 +15,7 @@ public class ScannedTarget : MonoBehaviour
 
     public void AnimalScanned(int animal)
     { ScannedAnimal = animal; }
+
     
+
 }

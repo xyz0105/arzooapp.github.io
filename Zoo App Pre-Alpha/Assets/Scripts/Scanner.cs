@@ -16,9 +16,11 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
     public GameObject textBox;
     public string animal;
     private bool done;
+    private GameObject warning;
 
     void Start()
     {
+        warning = GameObject.Find("Warning");
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
         {
@@ -44,17 +46,26 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
                 done = true;
                 animal = "You have scanned the " + animal + "!";
 
-                Text animalText = textBox.GetComponent<Text>();
-                animalText.text = animal;
+                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/3 + 1)) == 0)
+                {
 
-                StartCoroutine(ToQuestion());
+                    Text animalText = textBox.GetComponent<Text>();
+                    animalText.text = animal;
+
+                    StartCoroutine(ToQuestion());
 
 
-                print("Found it!");
+                    print("Found it!");
+                }
+                else { StartCoroutine(InvalidTarget()); print("target already completed"); warning.transform.localScale = new Vector3(1, 1, 1); }
             }
         }
     }
     IEnumerator ToQuestion() { yield return new WaitForSeconds(3);
         SceneManager.LoadScene(3);
+    }
+    IEnumerator InvalidTarget() { yield return new WaitForSeconds(5);
+        done = false;
+            warning.transform.localScale = new Vector3(0, 0, 0); ;
     }
 }
