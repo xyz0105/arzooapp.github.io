@@ -20,16 +20,19 @@ public class RightControl : MonoBehaviour
                 else
                 {
                     ChangeToScene(7);
+                    PlayerPrefs.SetInt("Unlocked3", 1);
                 }
             }
             else
             {
                 ChangeToScene(7);
+                PlayerPrefs.SetInt("Unlocked2", 1);
             }
         }
         else
         {
             ChangeToScene(7);
+            PlayerPrefs.SetInt("Unlocked1", 1);
         }
     }
     public void ChangeToScene(int changeTheScene)
