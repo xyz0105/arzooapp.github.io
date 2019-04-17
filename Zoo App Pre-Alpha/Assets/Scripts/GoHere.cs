@@ -15,7 +15,7 @@ public class GoHere : MonoBehaviour
 
        0 Offscreen
        1 Panda (43, -56)
-       2 Leopard (143, 16)
+       2 Leopard (-180, -37)
        3 Rhino (57, 47)
 
         */
@@ -53,7 +53,7 @@ public class GoHere : MonoBehaviour
     void MoveSign(int locationCode)
     {
      
-            Vector3[] xcoordinates = new[] { new Vector3(1000.0f, 0.0f, 0.0f), new Vector3(43.0f, -56.0f, 0.0f), new Vector3(143.0f, 16.0f, 0.0f), new Vector3(57.0f, 47.0f, 0.0f) };
+            Vector3[] xcoordinates = new[] { new Vector3(1000.0f, 0.0f, 0.0f), new Vector3(43.0f, -56.0f, 0.0f), new Vector3(-180.0f, -38.0f, 0.0f), new Vector3(57.0f, 47.0f, 0.0f) };
             PlayerLocation = xcoordinates[locationCode];
             print("Sign is at location " + locationCode);
             GetComponent<RectTransform>().localPosition = PlayerLocation;
