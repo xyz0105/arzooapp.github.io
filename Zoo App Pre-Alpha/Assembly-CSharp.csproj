@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ResetControl.cs" />
     <Compile Include="Assets\Scripts\AControl.cs" />
     <Compile Include="Assets\Scripts\BControl.cs" />
     <Compile Include="Assets\Scripts\ButtonPressed.cs" />
