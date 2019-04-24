@@ -15,10 +15,12 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
     public GameObject referenceObject;
     public GameObject textBox;
     public string animal;
-    
+    private bool done;
+    private GameObject warning;
 
     void Start()
     {
+        warning = GameObject.Find("Warning");
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
         {
@@ -30,24 +32,40 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
                                     TrackableBehaviour.Status previousStatus,
                                     TrackableBehaviour.Status newStatus)
     {
-        if (newStatus == TrackableBehaviour.Status.DETECTED ||
-            newStatus == TrackableBehaviour.Status.TRACKED)
+        if (done == false)
         {
 
-            ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
-            scorePointsScript.AnimalScanned(ScannedTarget);
-            animal = "You have scanned the " + animal + "!";
+            if (newStatus == TrackableBehaviour.Status.DETECTED ||
+                newStatus == TrackableBehaviour.Status.TRACKED)
+            {
 
-            Text animalText = textBox.GetComponent<Text>();
-            animalText.text = animal;
+                ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
+                scorePointsScript.AnimalScanned(ScannedTarget);
 
-            StartCoroutine(ToQuestion());
+                PlayerPrefs.SetInt("Question", ScannedTarget);
+                done = true;
+                animal = "You have scanned the " + animal + "!";
+
+                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/3 + 1)) == 0)
+                {
+
+                    Text animalText = textBox.GetComponent<Text>();
+                    animalText.text = animal;
+
+                    StartCoroutine(ToQuestion());
 
 
-            print("Found it!");
+                    print("Found it!");
+                }
+                else { StartCoroutine(InvalidTarget()); print("target already completed"); warning.transform.localScale = new Vector3(1, 1, 1); }
+            }
         }
     }
     IEnumerator ToQuestion() { yield return new WaitForSeconds(3);
         SceneManager.LoadScene(3);
+    }
+    IEnumerator InvalidTarget() { yield return new WaitForSeconds(5);
+        done = false;
+            warning.transform.localScale = new Vector3(0, 0, 0); ;
     }
 }

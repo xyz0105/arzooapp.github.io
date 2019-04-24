@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class BControl : MonoBehaviour
 {
-    //public static int currentLocation { get; private set; }
-    public int Question = 0;//currentLocation/*value from AR Scanner*/ - 1 * 5; //Pick starting question
     public Text answer;
     private bool correctanswer;
 
@@ -22,30 +20,50 @@ public class BControl : MonoBehaviour
     void Update()
     {
         //Set text and whether or not it's the right answer depending on which question is loaded.
-        if (Question == 0)
+        if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "B0";
+            answer.text = "Gazelles";
             correctanswer = false;
         }
-        if (Question == 1)
+        if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = "B1";
+            answer.text = "Lemonade";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 2)
+        {
+            answer.text = "Asia and Africa";
             correctanswer = true;
         }
-        if (Question == 2)
-        {
-            answer.text = "B2";
-            correctanswer = false;
-        }
-        if (Question == 3)
+        if (PlayerPrefs.GetInt("Question") == 3)
         {
             answer.text = "B3";
             correctanswer = false;
         }
-        //Debugging tool, moves directly to next question when space is pressed
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (PlayerPrefs.GetInt("Question") == 4)
         {
-            Question = Question + 1;
+            answer.text = "B4";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 5)
+        {
+            answer.text = "B5";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 6)
+        {
+            answer.text = "B6";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 7)
+        {
+            answer.text = "B7";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 8)
+        {
+            answer.text = "B8";
+            correctanswer = false;
         }
     }
         public void ChangeToScene(int changeTheScene) {
