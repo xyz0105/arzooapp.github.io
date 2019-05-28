@@ -22,60 +22,91 @@ public class BControl : MonoBehaviour
         //Set text and whether or not it's the right answer depending on which question is loaded.
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "Gazelles";
+            answer.text = "Crackers";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = "Lemonade";
+            answer.text = "Habitat loss and lack of food";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            answer.text = "Asia and Africa";
-            correctanswer = true;
+            answer.text = "Habitat loss";
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {
-            answer.text = "B3";
+            answer.text = "North America";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 4)
         {
-            answer.text = "B4";
+            answer.text = "Pink";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "B5";
-            correctanswer = true;
+            answer.text = "Both";
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 6)
         {
-            answer.text = "B6";
+            answer.text = "Asia";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 7)
         {
-            answer.text = "B7";
+            answer.text = "Sunrise";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 8)
         {
-            answer.text = "B8";
+            answer.text = "Hooves";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 9)
+        {
+            answer.text = "Shade and mud";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 10)
+        {
+            answer.text = "Long eyelashes";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 11)
+        {
+            answer.text = "South America";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 12)
+        {
+            answer.text = "To have unique fur coloring";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 13)
+        {
+            answer.text = "Meat";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 14)
+        {
+            answer.text = "They bury their heads in the sand.";
             correctanswer = false;
         }
     }
-        public void ChangeToScene(int changeTheScene) {
+    public void ChangeToScene(int changeTheScene)
+    {
         //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
-            if (correctanswer == true)
-            {
-                changeTheScene = 4;
-            }
-            if (correctanswer == false)
-            {
-                changeTheScene = 5;
-            }
-            SceneManager.LoadScene(changeTheScene);
+        if (correctanswer == true)
+        {
+            changeTheScene = 4;
         }
+        if (correctanswer == false)
+        {
+            changeTheScene = 5;
+        }
+        SceneManager.LoadScene(changeTheScene);
+    }
 }
