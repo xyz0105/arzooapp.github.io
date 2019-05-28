@@ -33,7 +33,7 @@ public class CControl : MonoBehaviour
         if (PlayerPrefs.GetInt("Question") == 2)
         {
             answer.text = "Africa and South America";
-            correctanswer = true;
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {

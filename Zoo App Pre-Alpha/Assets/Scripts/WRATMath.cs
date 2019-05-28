@@ -13,6 +13,12 @@ public class WRATMath : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         score.text = "";
         wrongs.text = "";
         rights.text = "";
@@ -22,11 +28,5 @@ public class WRATMath : MonoBehaviour
         //Debugging values, should be hidden on actual launch of app
         wrongs.text = PlayerPrefs.GetInt("Wrongs") + " Wrongs";
         rights.text = PlayerPrefs.GetInt("Rights") + " Rights";
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
