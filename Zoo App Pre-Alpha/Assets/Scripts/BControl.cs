@@ -92,8 +92,53 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 14)
         {
+            answer.text = "12";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 15)
+        {
             answer.text = "They bury their heads in the sand.";
             correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 16)
+        {
+            answer.text = "Grasslands";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 17)
+        {
+            answer.text = "5 months";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 18)
+        {
+            answer.text = "They allow them to run faster.";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 19)
+        {
+            answer.text = "Equidae";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 20)
+        {
+            answer.text = "Cast";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 21)
+        {
+            answer.text = "Being able to dig";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 22)
+        {
+            answer.text = "";
+            correctanswer = ;
+        }
+        if (PlayerPrefs.GetInt("Question") == 23)
+        {
+            answer.text = "";
+            correctanswer = ;
         }
     }
     public void ChangeToScene(int changeTheScene)

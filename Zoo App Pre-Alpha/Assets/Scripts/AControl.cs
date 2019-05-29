@@ -95,10 +95,50 @@ public class AControl : MonoBehaviour
             answer.text = "3";
             correctanswer = false;
         }
-        if (PlayerPrefs.GetInt("Question") == 14)
+        if (PlayerPrefs.GetInt("Question") == 15)
         {
             answer.text = "They put their necks close to the ground.";
             correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 16)
+        {
+            answer.text = "Swamps";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 17)
+        {
+            answer.text = "3 months";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 18)
+        {
+            answer.text = "They blend in to the trees.";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 19)
+        {
+            answer.text = "Mustelidae";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 20)
+        {
+            answer.text = "Shadow";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 21)
+        {
+            answer.text = "Having one meerkat keep watch";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 22)
+        {
+            answer.text = "";
+            correctanswer = ;
+        }
+        if (PlayerPrefs.GetInt("Question") == 23)
+        {
+            answer.text = "";
+            correctanswer = ;
         }
     }
     public void ChangeToScene(int changeTheScene)

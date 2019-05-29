@@ -92,8 +92,53 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 14)
         {
+            answer.text = "12";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 15)
+        {
             answer.text = "They crouch down.";
             correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 16)
+        {
+            answer.text = "Forests";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 17)
+        {
+            answer.text = "7 months";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 18)
+        {
+            answer.text = "The stripes help them to blend into tall grasses and confuse the lions.";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 19)
+        {
+            answer.text = "Canidae";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 20)
+        {
+            answer.text = "Mob";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 21)
+        {
+            answer.text = "Eating insects";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 22)
+        {
+            answer.text = "";
+            correctanswer = ;
+        }
+        if (PlayerPrefs.GetInt("Question") == 23)
+        {
+            answer.text = "";
+            correctanswer = ;
         }
     }
     public void ChangeToScene(int changeTheScene)

@@ -92,8 +92,53 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 14)
         {
-            answer.text = "They curl up into a ball in the grass.";
+            answer.text = "24";
             correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 15)
+        {
+            answer.text = "They curl up into a ball in the grass.";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 16)
+        {
+            answer.text = "Deserts";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 17)
+        {
+            answer.text = "9 months";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 18)
+        {
+            answer.text = "They are fasionistas.";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 19)
+        {
+            answer.text = "Felidae";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 20)
+        {
+            answer.text = "Shrewdness";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 21)
+        {
+            answer.text = "Having a large social group";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 22)
+        {
+            answer.text = "";
+            correctanswer = ;
+        }
+        if (PlayerPrefs.GetInt("Question") == 23)
+        {
+            answer.text = "";
+            correctanswer = ;
         }
     }
     public void ChangeToScene(int changeTheScene)
