@@ -9,6 +9,7 @@ public class GoHere : MonoBehaviour
     Vector3 PlayerLocation;
     public int location = 2;
     private int currentLocation;
+    public int locationLimit;
     
 
     /*
@@ -62,7 +63,7 @@ public class GoHere : MonoBehaviour
     // Tests whether the location after the current location has been completed. If it has not, sends sign to that location. If it has, tests the location after the next one, etc. If the current location is the last one on the list (number 3), it loops back to location 1.
     void TestCompletion(int location)
     {
-        if ((location + 1) > 3) { TestCompletion(0); }
+        if ((location + 1) > locationLimit) { TestCompletion(0); }
         else
         {
             if (CheckCompletion(location + 1) == false) { MoveSign(location + 1); } else { TestCompletion(location + 1); }

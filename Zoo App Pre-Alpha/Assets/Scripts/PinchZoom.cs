@@ -28,5 +28,6 @@ public class PinchZoom : MonoBehaviour {
         else { Text debugText = textbox.GetComponent<Text>();
             debugText.text = "2 inputs not detected";
         }
+        
     }
 }
