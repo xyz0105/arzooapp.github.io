@@ -8,13 +8,35 @@ public class ResetControl : MonoBehaviour
     public GameObject RhinoButton;
     public GameObject PandaButton;
     public GameObject LeopardButton;
+    public GameObject ResetConfirm;
+    //public GameObject ConfirmParent;
 
-    public void Reset()
+    public void ConfirmReset()
+    {
+        //Store ResetConfirm pop-up window inside the initialized variable
+        /*ConfirmParent = GameObject.Find("ConfirmParent");
+        ResetConfirm = ConfirmParent.Find("ResetConfirm");*/
+
+        //Open window
+        ResetConfirm.SetActive(true);
+    }
+
+    public void ResetDenied()
+    {
+        //Store ResetConfirm pop-up window inside the initialized variable
+        ResetConfirm = GameObject.Find("ResetConfirm");
+
+        //Close window
+        ResetConfirm.SetActive(false);
+    }
+
+    public void ResetConfirmed()
     {
         //Store actual objects inside the initialized variable
         RhinoButton = GameObject.Find("RhinoButton");
         PandaButton = GameObject.Find("PandaButton");
         LeopardButton = GameObject.Find("LeopardButton");
+        ResetConfirm = GameObject.Find("ResetConfirm");
 
         //Reset values
         PlayerPrefs.SetInt("Question", 0);
@@ -29,5 +51,8 @@ public class ResetControl : MonoBehaviour
         RhinoButton.SetActive(false);
         PandaButton.SetActive(false);
         LeopardButton.SetActive(false);
+
+        //Close window
+        ResetConfirm.SetActive(false);
     }
 }

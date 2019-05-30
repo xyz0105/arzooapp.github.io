@@ -8,6 +8,7 @@ public class GalleryControl : MonoBehaviour
     public GameObject RhinoButton;
     public GameObject PandaButton;
     public GameObject LeopardButton;
+    public GameObject ResetConfirm;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,10 @@ public class GalleryControl : MonoBehaviour
         RhinoButton = GameObject.Find("RhinoButton");
         PandaButton = GameObject.Find("PandaButton");
         LeopardButton = GameObject.Find("LeopardButton");
+        //ResetConfirm = GameObject.Find("ResetConfirm");
+
+        //Make sure ResetConfirm pop-up window starts out closed
+        ResetConfirm.SetActive(false);
 
         //Set objects to active or inactive based on completion
         if (PlayerPrefs.GetInt("Unlocked1") == 0)
