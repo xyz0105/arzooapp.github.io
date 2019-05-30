@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Opening.unity
-    guid: 9075a5216bdde7f42aa7905fcdabd54b
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Unused.unity
-    guid: e1054a95887f51c42bbec4231d87debc
+    path: Assets/Scenes/Home.unity
+    guid: 67fa50f52a89ee64485975a8da71605a
   - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: 3bd06065c73bc274592ca81e24db8e2a
@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hub.unity
     guid: a91db0f8291a4944ba44436a62c2881e
+  - enabled: 1
+    path: Assets/Scenes/Unused.unity
+    guid: e1054a95887f51c42bbec4231d87debc
   m_configObjects: {}
