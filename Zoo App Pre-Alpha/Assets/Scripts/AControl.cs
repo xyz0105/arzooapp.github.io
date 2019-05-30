@@ -20,6 +20,7 @@ public class AControl : MonoBehaviour
     void Update()
     {
         //Set text and whether or not it's the right answer depending on which question is loaded.
+        //Hyacinth Macaw
         if (PlayerPrefs.GetInt("Question") == 0)
         {
             answer.text = "Palm nuts";
@@ -30,6 +31,7 @@ public class AControl : MonoBehaviour
             answer.text = "Invasive species taking over";
             correctanswer = false;
         }
+        //Stanely Crane
         if (PlayerPrefs.GetInt("Question") == 2)
         {
             answer.text = "Illegal capture";
@@ -40,16 +42,18 @@ public class AControl : MonoBehaviour
             answer.text = "Australia";
             correctanswer = false;
         }
+        //Gibbon
         if (PlayerPrefs.GetInt("Question") == 4)
         {
-            answer.text = "Blonde";
+            answer.text = "Brachiating";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "Neither";
+            answer.text = "Annouce location";
             correctanswer = false;
         }
+        //Red River Hog
         if (PlayerPrefs.GetInt("Question") == 6)
         {
             answer.text = "Europe";
@@ -57,101 +61,214 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 7)
         {
-            answer.text = "Early afternoon";
-            correctanswer = false;
+            answer.text = "They dig up garden crops.";
+            correctanswer = true;
         }
+        //Southern White Rhinoceros
         if (PlayerPrefs.GetInt("Question") == 8)
         {
-            answer.text = "Square lip";
-            correctanswer = true;
+            answer.text = "Less than 10 gallons";
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 9)
         {
-            answer.text = "Mud and leaf fans";
+            answer.text = "Wealthy people throught Asia believe rhino horns can cure diseases.";
             correctanswer = false;
         }
+        //Giraffe
         if (PlayerPrefs.GetInt("Question") == 10)
         {
-            answer.text = "Thick fur";
+            answer.text = "To run fast";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 11)
         {
-            answer.text = "Europe";
+            answer.text = "Great spotted one";
             correctanswer = false;
         }
+        //Meerkats
         if (PlayerPrefs.GetInt("Question") == 12)
         {
-            answer.text = "They are fashionistas";
+            answer.text = "Shadows";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 13)
         {
-            answer.text = "Twigs";
-            correctanswer = false;
+            answer.text = "Vocalize to alert the mob";
+            correctanswer = true;
         }
+        //Saddle-Billed Stork
         if (PlayerPrefs.GetInt("Question") == 14)
         {
-            answer.text = "3";
+            answer.text = "The male and female look the same.";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 15)
         {
-            answer.text = "They put their necks close to the ground.";
-            correctanswer = true;
+            answer.text = "They make no sounds at all.";
+            correctanswer = false;
         }
+        //Cassowary
         if (PlayerPrefs.GetInt("Question") == 16)
         {
-            answer.text = "Swamps";
+            answer.text = "Black, Striped, Brown";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "3 months";
-            correctanswer = false;
+            answer.text = "They spend most of their time away from other members of their species except to mate and possibly riase their young.";
+            correctanswer = true;
         }
+        //Kangaroo
         if (PlayerPrefs.GetInt("Question") == 18)
         {
-            answer.text = "They blend in to the trees.";
+            answer.text = "Tasmanian devil";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 19)
         {
-            answer.text = "Mustelidae";
+            answer.text = "A dollar bill";
             correctanswer = false;
         }
+        //Eland
         if (PlayerPrefs.GetInt("Question") == 20)
         {
-            answer.text = "Shadow";
+            answer.text = "South Africa";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 21)
         {
-            answer.text = "Having one meerkat keep watch";
-            correctanswer = false;
+            answer.text = "By raising their body temperature so they do not need to sweat";
+            correctanswer = true;
         }
+        //Bontebok
         if (PlayerPrefs.GetInt("Question") == 22)
         {
-            answer.text = "";
-            correctanswer = ;
+            answer.text = "The ability to stab predators with their large horns";
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 23)
         {
-            answer.text = "";
-            correctanswer = ;
+            answer.text = "1930";
+            correctanswer = false;
+        }
+        //Grey crowned crane
+        if (PlayerPrefs.GetInt("Question") == 24)
+        {
+            answer.text = "Population expansion";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 25)
+        {
+            answer.text = "living fossils";
+            correctanswer = true;
+        }
+        //Ostrich
+        if (PlayerPrefs.GetInt("Question") == 26)
+        {
+            answer.text = "soda can";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 27)
+        {
+            answer.text = "Overhunting";
+            correctanswer = true;
+        }
+        //Springbok
+        if (PlayerPrefs.GetInt("Question") == 28)
+        {
+            answer.text = "Planking";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 29)
+        {
+            answer.text = "They pronk too much.";
+            correctanswer = false;
+        }
+        //Zebra
+        if (PlayerPrefs.GetInt("Question") == 30)
+        {
+            answer.text = "This is how they find their mothers.";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 31)
+        {
+            answer.text = "Rainforests";
+            correctanswer = false;
+        }
+        //Sulcata Tortoise
+        if (PlayerPrefs.GetInt("Question") == 32)
+        {
+            answer.text = "Habitat loss";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 33)
+        {
+            answer.text = "Catching raindrops";
+            correctanswer = false;
+        }
+        //Sumatran Tiger
+        if (PlayerPrefs.GetInt("Question") == 34)
+        {
+            answer.text = "Habitat loss";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 35)
+        {
+            answer.text = "Travel";
+            correctanswer = false;
+        }
+        //Red-footed tortoise
+        if (PlayerPrefs.GetInt("Question") == 36)
+        {
+            answer.text = "With head movements";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 37)
+        {
+            answer.text = "Habitat loss";
+            correctanswer = false;
+        }
+        //Southern Pudu
+        if(PlayerPrefs.GetInt("Question") == 38)
+        {
+            answer.text = "By chasing out the top predators";
+            correctanswer = false;
+        }
+        if(PlayerPrefs.GetInt("Question") == 39)
+        {
+            answer.text = "White-tailed deer";
+            correctanswer = true;
+        }
+        //Andean Bear
+        if(PlayerPrefs.GetInt("Question") == 40)
+        {
+            answer.text = "Following them with helicopters";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 41)
+        {
+            answer.text = "Endangered";
+            correctanswer = false;
         }
     }
+
     public void ChangeToScene(int changeTheScene)
     {
-        //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
+    //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
         if (correctanswer == true)
         {
-            changeTheScene = 4;
+             changeTheScene = 4;
         }
         if (correctanswer == false)
         {
-            changeTheScene = 5;
+             changeTheScene = 5;
         }
-        SceneManager.LoadScene(changeTheScene);
+     SceneManager.LoadScene(changeTheScene);
     }
 }
+ 
+ 
+ 
+ 
+ 
