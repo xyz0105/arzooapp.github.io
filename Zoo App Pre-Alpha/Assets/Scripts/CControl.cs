@@ -116,7 +116,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "They hang out in large groups.";
+            answer.text = "They hang out in large groups with a male leading females and chicks.";
             correctanswer = false;
         }
         //Kangaroo
@@ -193,7 +193,7 @@ public class CControl : MonoBehaviour
         }     
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            answer.text = "Tundra";
+            answer.text = "Tundras";
             correctanswer = false;
         }
         //Sulcata Tortoise
@@ -215,7 +215,7 @@ public class CControl : MonoBehaviour
          }
          if (PlayerPrefs.GetInt("Question") == 35)
          {
-             answer.text = "Cool off";
+             answer.text = "Cooling off";
              correctanswer = false;
          }
          //Red-footed tortoise
@@ -237,7 +237,7 @@ public class CControl : MonoBehaviour
          }
          if (PlayerPrefs.GetInt("Question") == 39)
          {
-             answer.text = "Common eastern cottontail";
+             answer.text = "Common eastern cottontails";
              correctanswer = false;
          }
          //Andean Bear
@@ -265,7 +265,7 @@ public class CControl : MonoBehaviour
         //Rhino Hornbill
         if (PlayerPrefs.GetInt("Question") == 44)
         {
-            answer.text = "Having colorful feathers";
+            answer.text = "Having feathers like the color of rhinoceros";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 45)

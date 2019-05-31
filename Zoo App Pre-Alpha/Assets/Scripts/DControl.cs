@@ -45,7 +45,7 @@ public class DControl : MonoBehaviour
         //Gibbon
         if (PlayerPrefs.GetInt("Question") == 4)
         {
-            answer.text = "Bending";
+            answer.text = "Hanging";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 5)
@@ -84,7 +84,7 @@ public class DControl : MonoBehaviour
         if (PlayerPrefs.GetInt("Question") == 11)
         {
             answer.text = "The one with the purple tongue";
-            correctanswer = true;
+            correctanswer = false;
         }
         //Meerkats
         if (PlayerPrefs.GetInt("Question") == 12)
@@ -100,7 +100,7 @@ public class DControl : MonoBehaviour
         //Saddle-Bill Stork
         if (PlayerPrefs.GetInt("Question") == 14)
         {
-            answer.text = "The male and female legs look differnt.";
+            answer.text = "The male and female take turns guarding the eggs.";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 15)
@@ -166,7 +166,7 @@ public class DControl : MonoBehaviour
         //Ostrich
         if (PlayerPrefs.GetInt("Question") == 26)
         {
-            answer.text = "Spiral notebook";
+            answer.text = "spiral notebook";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 27)
@@ -216,7 +216,7 @@ public class DControl : MonoBehaviour
         if (PlayerPrefs.GetInt("Question") == 35)
         {
             answer.text = "All of the above";
-            correctanswer = false;
+            correctanswer = true;
         }
         //Red-footed tortoise
         if (PlayerPrefs.GetInt("Question") == 36)
@@ -303,7 +303,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 51)
         {
-            answer.text = "Socializing, sleeping, and swimming";
+            answer.text = "Socializing, sunbathing, and swimming";
             correctanswer = false;
         }
         //Yellow-back Duiker
@@ -369,7 +369,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 63)
         {
-            answer.text = "They guard tapirs";
+            answer.text = "They guard tapirs from hunters";
             correctanswer = false;
         }
         //Caribbean Flamingo

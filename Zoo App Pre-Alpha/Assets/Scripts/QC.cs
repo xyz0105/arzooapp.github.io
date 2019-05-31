@@ -230,7 +230,7 @@ public class QC : MonoBehaviour
         //Red Panda
         if (PlayerPrefs.GetInt("Question") == 46)
         {
-            question.text = "At certain times of the year, when daytime temperatures are high, red pandas become crepuscular, meaning they:";
+            question.text = "When daytime temperatures are high, red pandas become crepuscular, meaning they:";
         }
         if (PlayerPrefs.GetInt("Question") == 47)
         {
@@ -261,7 +261,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 53)
         {
-            question.text = "What does duiker mean?";
+            question.text = "What does the word duiker mean?";
         }
         //Red-Ruffed Lemur
         if (PlayerPrefs.GetInt("Question") == 54)
@@ -288,7 +288,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 59)
         {
-            question.text = "Why are Mexican spider monkeys at risk?";
+            question.text = "Why are spider monkeys at risk?";
         }
         //Cape Porcupine
         if (PlayerPrefs.GetInt("Question") == 60)
@@ -297,7 +297,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            question.text = "Where would you NOT find a cape porcupine?";
+            question.text = "Where would you NOT find a porcupine?";
         }
         //Bard's Tapir and Crested Screamer
         if (PlayerPrefs.GetInt("Question") == 62)

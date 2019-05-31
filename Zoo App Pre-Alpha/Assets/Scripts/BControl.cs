@@ -193,7 +193,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            answer.text = "Savannah";
+            answer.text = "Savannahs";
             correctanswer = true;
         }
         //Sulcata Tortoise
@@ -237,7 +237,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 39)
         {
-            answer.text = "Nasonia";
+            answer.text = "Opossums";
             correctanswer = false;
         }
         //Andean Bear
@@ -265,8 +265,8 @@ public class BControl : MonoBehaviour
         //Rhino Hornbill
         if (PlayerPrefs.GetInt("Question") == 44)
         {
-            answer.text = "more active at dawn than dusk";
-            correctanswer = false;
+            answer.text = "Horn-;ike casque on its upper mandible";
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 45)
         {

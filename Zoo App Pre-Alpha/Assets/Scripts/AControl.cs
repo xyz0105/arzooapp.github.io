@@ -100,7 +100,7 @@ public class AControl : MonoBehaviour
         //Saddle-Billed Stork
         if (PlayerPrefs.GetInt("Question") == 14)
         {
-            answer.text = "The male and female look the same.";
+            answer.text = "The male and female both take care of the chicks.";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 15)
@@ -215,7 +215,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 35)
         {
-            answer.text = "Travel";
+            answer.text = "Traveling";
             correctanswer = false;
         }
         //Red-footed tortoise
@@ -243,7 +243,7 @@ public class AControl : MonoBehaviour
         //Andean Bear
         if(PlayerPrefs.GetInt("Question") == 40)
         {
-            answer.text = "Following them with helicopters";
+            answer.text = "Following them with drones";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 41)
