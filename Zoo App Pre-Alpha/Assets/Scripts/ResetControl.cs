@@ -24,7 +24,7 @@ public class ResetControl : MonoBehaviour
     public void ResetDenied()
     {
         //Store ResetConfirm pop-up window inside the initialized variable
-        ResetConfirm = GameObject.Find("ResetConfirm");
+        //ResetConfirm = GameObject.Find("ResetConfirm");
 
         //Close window
         ResetConfirm.SetActive(false);
@@ -33,10 +33,10 @@ public class ResetControl : MonoBehaviour
     public void ResetConfirmed()
     {
         //Store actual objects inside the initialized variable
-        RhinoButton = GameObject.Find("RhinoButton");
+        /*RhinoButton = GameObject.Find("RhinoButton");
         PandaButton = GameObject.Find("PandaButton");
         LeopardButton = GameObject.Find("LeopardButton");
-        ResetConfirm = GameObject.Find("ResetConfirm");
+        ResetConfirm = GameObject.Find("ResetConfirm");*/
 
         //Reset values
         PlayerPrefs.SetInt("Question", 0);
