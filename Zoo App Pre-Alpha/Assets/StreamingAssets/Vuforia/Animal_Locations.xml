@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="IMG_2679" size="1.000000 1.289057" />
     <ImageTarget name="giraffe" size="0.200000 0.300000" />
     <ImageTarget name="kalahari_lion" size="0.070000 0.061061" />
     <ImageTarget name="kalahari_large" size="0.070000 0.107130" />

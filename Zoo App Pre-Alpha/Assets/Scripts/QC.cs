@@ -249,8 +249,7 @@ public class QC : MonoBehaviour
         //Ring-tailed Lemur
         if (PlayerPrefs.GetInt("Question") == 48)
         {
-            question.text = "";
-        }
+            question.text = "";        }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
             question.text = "";
