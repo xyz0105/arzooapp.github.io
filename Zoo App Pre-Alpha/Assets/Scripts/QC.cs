@@ -23,11 +23,11 @@ public class QC : MonoBehaviour
         //Hyacinth Macaw
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            question.text = "What is a hyacinth macaw's main food source?";
+            question.text = "What is a macaw's main food source?";
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            question.text = "Why is the population of hyacinth macaws in the wild rapidly declining?";
+            question.text = "Why is the population of macaws in the wild rapidly declining?";
         }
         //Stanely Crane
         if (PlayerPrefs.GetInt("Question") == 2)
@@ -41,7 +41,7 @@ public class QC : MonoBehaviour
         //Gibbon
         if (PlayerPrefs.GetInt("Question") == 4)
         {
-            question.text = "White-cheeked gibbons use their long arms to swing branch to branch called _____.";
+            question.text = "White-cheeked gibbons use their long arms to swing branch to branch. This is called _____.";
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
@@ -122,7 +122,7 @@ public class QC : MonoBehaviour
         //Bontebok
         if (PlayerPrefs.GetInt("Question") == 22)
         {
-            question.text = "Which trait protected the bontebok from extinction?";
+            question.text = "Which trait protected the Bontebok from extinction?";
         }
         if (PlayerPrefs.GetInt("Question") == 23)
         {
@@ -171,7 +171,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 33)
         {
-            question.text = "How do sulcate tortoises get most of their needed water?";
+            question.text = "How do sulcata tortoises get most of their needed water?";
         }
         //Sumatran Tiger
         if (PlayerPrefs.GetInt("Question") == 34)
@@ -180,7 +180,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 35)
         {
-            question.text = "How do Sumatran tigers spend time in water?";
+            question.text = "How do Sumatran tigers spend time in the water?";
         }
         //Red-Footed Tortoise
         if (PlayerPrefs.GetInt("Question") == 36)
@@ -209,116 +209,114 @@ public class QC : MonoBehaviour
         {
             question.text = "What is the conservation status of Andean bears?";
         }
-        /*
         //Guinea Pig
         if (PlayerPrefs.GetInt("Question") == 42)
         {
-            question.text = "";
+            question.text = "Which breed of Guinea pig has a white patch on its forehead?";
         }
         if (PlayerPrefs.GetInt("Question") == 43)
         {
-            question.text = "";
+            question.text = "Which breed of Guinea pig has the longest hair of all breeds?";
         }
         //Rhino Hornbill
         if (PlayerPrefs.GetInt("Question") == 44)
         {
-            question.text = "";
+            question.text = "What is the rhinoceros hornbill named for?";
         }
         if (PlayerPrefs.GetInt("Question") == 45)
         {
-            question.text = "";
+            question.text = "Where might you find the female rhinoceros hornbill in this exhibit?";
         }
         //Red Panda
         if (PlayerPrefs.GetInt("Question") == 46)
         {
-            question.text = "";
+            question.text = "At certain times of the year, when daytime temperatures are high, red pandas become crepuscular, meaning they:";
         }
         if (PlayerPrefs.GetInt("Question") == 47)
         {
-            question.text = "";
+            question.text = "Why are red pandas endangered?";
         }
         //Clouded Leopard
-        if (PlayerPrefs.GetInt("Question") == 46)
-        {
-            question.text = "";
-        }
-        if (PlayerPrefs.GetInt("Question") == 47)
-        {
-            question.text = "";
-        }
-        //Ring-tailed Lemur
         if (PlayerPrefs.GetInt("Question") == 48)
         {
-            question.text = "";
+            question.text = "What do clouded leopards use their canine teeth to capture and kill?";
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            question.text = "";
+            question.text = "What do the clouded leopards’ wide paws allow them to do?";
         }
-        //Yellow-backed Duiker
+        //Ring-tailed Lemur
         if (PlayerPrefs.GetInt("Question") == 50)
         {
-            question.text = "";
+            question.text = "Where can you find the ring-tailed lemur?";
         }
         if (PlayerPrefs.GetInt("Question") == 51)
         {
-            question.text = "";
+            question.text = "How do ring-tailed lemurs spend their day?";
         }
-        //Red-Ruffed Lemur
+        //Yellow-backed Duiker
         if (PlayerPrefs.GetInt("Question") == 52)
         {
-            question.text = "";
+            question.text = "Why are yellow-backed duikers at risk?";
         }
         if (PlayerPrefs.GetInt("Question") == 53)
         {
-            question.text = "";
+            question.text = "What does duiker mean?";
         }
-        //Cougar
+        //Red-Ruffed Lemur
         if (PlayerPrefs.GetInt("Question") == 54)
         {
-            question.text = "";
+            question.text = "Red-ruffed lemurs are diurnal. This means they are:";
         }
         if (PlayerPrefs.GetInt("Question") == 55)
         {
-            question.text = "";
+            question.text = "Red-ruffed lemurs have _________ _________ that helps them to see in the dark.";
         }
-        //Mexican Spider Monkey
+        //Cougar
         if (PlayerPrefs.GetInt("Question") == 56)
         {
-            question.text = "";
+            question.text = "Why are cougars at risk?";
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            question.text = "";
+            question.text = "What is the conservation status of cougars?";
         }
-        //Cape Porcupine
+        //Mexican Spider Monkey
         if (PlayerPrefs.GetInt("Question") == 58)
         {
-            question.text = "";
+            question.text = "How many fingers do Mexican spider monkeys have on their hands?";
         }
         if (PlayerPrefs.GetInt("Question") == 59)
         {
-            question.text = "";
+            question.text = "Why are Mexican spider monkeys at risk?";
         }
-        //Bard's Tapir and Crested Screamer
+        //Cape Porcupine
         if (PlayerPrefs.GetInt("Question") == 60)
         {
-            question.text = "";
+            question.text = "Why are cape porcupines illegally hunted?";
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            question.text = "";
+            question.text = "Where would you NOT find a cape porcupine?";
         }
-        //Caribbean Flamingo
+        //Bard's Tapir and Crested Screamer
         if (PlayerPrefs.GetInt("Question") == 62)
         {
-            question.text = "";
+            question.text = "What is the conservation status of Bard’s tapir?";
         }
         if (PlayerPrefs.GetInt("Question") == 63)
         {
-            question.text = "";
+            question.text = "Why are crested screamers guardians of their habitats?";
         }
-        */
+        //Caribbean Flamingo
+        if (PlayerPrefs.GetInt("Question") == 64)
+        {
+            question.text = "What is the visible joint on a flamingo’s leg?";
+        }
+        if (PlayerPrefs.GetInt("Question") == 65)
+        {
+            question.text = "Why do flamingos stand on one leg?";
+        }
         //Debugging tool, resets question # to 0
         if (Input.GetKeyDown(KeyCode.Space))
         {

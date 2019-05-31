@@ -67,7 +67,7 @@ public class BControl : MonoBehaviour
         //Southern White Rhinoceros
         if (PlayerPrefs.GetInt("Question") == 8)
         {
-            answer.text = "More than 13 gallons";
+            answer.text = "13 gallons";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 9)
@@ -250,6 +250,138 @@ public class BControl : MonoBehaviour
         {
             answer.text = "Vulnerable";
             correctanswer = true;
+        }
+        //Guinea Pig
+        if (PlayerPrefs.GetInt("Question") == 42)
+        {
+            answer.text = "Teddy";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 43)
+        {
+            answer.text = "American";
+            correctanswer = false;
+        }
+        //Rhino Hornbill
+        if (PlayerPrefs.GetInt("Question") == 44)
+        {
+            answer.text = "more active at dawn than dusk";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 45)
+        {
+            answer.text = "On the ground in a nest";
+            correctanswer = false;
+        }
+        //Red Panda
+        if (PlayerPrefs.GetInt("Question") == 46)
+        {
+            answer.text = "more active at dusk than dawn";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 47)
+        {
+            answer.text = "Increase in human need for timber";
+            correctanswer = false;
+        }
+        //Clouded Leopard
+        if (PlayerPrefs.GetInt("Question") == 48)
+        {
+            answer.text = "Wild pigs";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 49)
+        {
+            answer.text = "Run down the tree head first";
+            correctanswer = false;
+        }
+        //Ring-tailed Lemur
+        if (PlayerPrefs.GetInt("Question") == 50)
+        {
+            answer.text = "Madagascar";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 51)
+        {
+            answer.text = "Wading, climbing, and sleeping";
+            correctanswer = false;
+        }
+        //Yellow-back Duiker
+        if (PlayerPrefs.GetInt("Question") == 52)
+        {
+            answer.text = "Their monogamous lifestyle";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 53)
+        {
+            answer.text = "Diver";
+            correctanswer = true;
+        }
+        //Red-Ruffed Lemur
+        if (PlayerPrefs.GetInt("Question") == 54)
+        {
+            answer.text = "active during the night";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 55)
+        {
+            answer.text = "posterior Chambers";
+            correctanswer = false;
+        }
+        //Cougar
+        if (PlayerPrefs.GetInt("Question") == 56)
+        {
+            answer.text = "Perceived threat to humans";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 57)
+        {
+            answer.text = "Near Threatened";
+            correctanswer = false;
+        }
+        //Mexican Spider Monkey
+        if (PlayerPrefs.GetInt("Question") == 58)
+        {
+            answer.text = "4";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 59)
+        {
+            answer.text = "Pet trade";
+            correctanswer = false;
+        }
+        //Cape Porcupine
+        if (PlayerPrefs.GetInt("Question") == 60)
+        {
+            answer.text = "For their ears";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 61)
+        {
+            answer.text = "Tundra";
+            correctanswer = true;
+        }
+        //Bard's Tapir and Crested Screamer
+        if (PlayerPrefs.GetInt("Question") == 62)
+        {
+            answer.text = "Vulnerable";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 63)
+        {
+            answer.text = "They chase tapirs away";
+            correctanswer = false;
+        }
+        //Caribbean Flamingo
+        if (PlayerPrefs.GetInt("Question") == 64)
+        {
+            answer.text = "Ankle";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 65)
+        {
+            answer.text = "They fly easier";
+            correctanswer = false;
         }
     }
 

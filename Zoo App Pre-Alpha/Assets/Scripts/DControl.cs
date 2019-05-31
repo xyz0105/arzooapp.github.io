@@ -67,7 +67,7 @@ public class DControl : MonoBehaviour
         //Southern White Rhinoceros
         if (PlayerPrefs.GetInt("Question") == 8)
         {
-            answer.text = "More than 13 cups";
+            answer.text = "2 gallons";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 9)
@@ -251,8 +251,140 @@ public class DControl : MonoBehaviour
             answer.text = "Least concern";
             correctanswer = false;
         }
+        //Guinea Pig
+        if (PlayerPrefs.GetInt("Question") == 42)
+        {
+            answer.text = "White Crested";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 43)
+        {
+            answer.text = "Abyssinian";
+            correctanswer = false;
+        }
+        //Rhino Hornbill
+        if (PlayerPrefs.GetInt("Question") == 44)
+        {
+            answer.text = "Having thick skin like a rhinoceros";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 45)
+        {
+            answer.text = "With the male";
+            correctanswer = false;
+        }
+        //Red Panda
+        if (PlayerPrefs.GetInt("Question") == 46)
+        {
+            answer.text = "not active at dawn and dusk";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 47)
+        {
+            answer.text = "All of the above";
+            correctanswer = true;
+        }
+        //Clouded Leopard
+        if (PlayerPrefs.GetInt("Question") == 48)
+        {
+            answer.text = "All of the above";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 49)
+        {
+            answer.text = "Suspend itself by its hind feet";
+            correctanswer = false;
+        }
+        //Ring-tailed Lemur
+        if (PlayerPrefs.GetInt("Question") == 50)
+        {
+            answer.text = "Australia";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 51)
+        {
+            answer.text = "Socializing, sleeping, and swimming";
+            correctanswer = false;
+        }
+        //Yellow-back Duiker
+        if (PlayerPrefs.GetInt("Question") == 52)
+        {
+            answer.text = "Overhunting";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 53)
+        {
+            answer.text = "One who runs fast";
+            correctanswer = false;
+        }
+        //Red-Ruffed Lemur
+        if (PlayerPrefs.GetInt("Question") == 54)
+        {
+            answer.text = "active at dusk";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 55)
+        {
+            answer.text = "tapedum lucidum";
+            correctanswer = true;
+        }
+        //Cougar
+        if (PlayerPrefs.GetInt("Question") == 56)
+        {
+            answer.text = "All of the above";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 57)
+        {
+            answer.text = "Endangered";
+            correctanswer = false;
+        }
+        //Mexican Spider Monkey
+        if (PlayerPrefs.GetInt("Question") == 58)
+        {
+            answer.text = "6";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 59)
+        {
+            answer.text = "All of the above";
+            correctanswer = true;
+        }
+        //Cape Porcupine
+        if (PlayerPrefs.GetInt("Question") == 60)
+        {
+            answer.text = "To keep as pets";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 61)
+        {
+            answer.text = "Forests";
+            correctanswer = false;
+        }
+        //Bard's Tapir and Crested Screamer
+        if (PlayerPrefs.GetInt("Question") == 62)
+        {
+            answer.text = "Critically Endangered";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 63)
+        {
+            answer.text = "They guard tapirs";
+            correctanswer = false;
+        }
+        //Caribbean Flamingo
+        if (PlayerPrefs.GetInt("Question") == 64)
+        {
+            answer.text = "Hip bone";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 65)
+        {
+            answer.text = "It makes them harder for predators to spot";
+            correctanswer = false;
+        }
     }
-      public void ChangeToScene(int changeTheScene)
+    public void ChangeToScene(int changeTheScene)
       {
           //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
           if (correctanswer == true)
