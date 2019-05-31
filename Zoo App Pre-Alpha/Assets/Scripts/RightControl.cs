@@ -5,34 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class RightControl : MonoBehaviour
 {
+    //When the player gets a question right
     public void PlusOneRight()
     {
+        //Give the player 100 points
         PlayerPrefs.SetInt("Rights", PlayerPrefs.GetInt("Rights") + 1);
-        if (PlayerPrefs.GetInt("Question") != 2)
+
+        //If the Question# is odd
+        if (PlayerPrefs.GetInt("Question") % 2 == 1)
         {
-            if (PlayerPrefs.GetInt("Question") != 5)
-            {
-                if (PlayerPrefs.GetInt("Question") != 8)
-                {
-                    PlayerPrefs.SetInt("Question", PlayerPrefs.GetInt("Question") + 1);
-                    ChangeToScene(3);
-                }
-                else
-                {
-                    ChangeToScene(7);
-                    PlayerPrefs.SetInt("Unlocked3", 1);
-                }
-            }
-            else
-            {
-                ChangeToScene(7);
-                PlayerPrefs.SetInt("Unlocked2", 1);
-            }
+            //Set the proper Unlocked# PlayerPref to 1
+            PlayerPrefs.SetInt("Unlocked"+((PlayerPrefs.GetInt("Question")+1)/2), 1);
+            //Go to Hub/Gallery
+            ChangeToScene(7);
         }
+        //If the Question# is even
         else
         {
-            ChangeToScene(7);
-            PlayerPrefs.SetInt("Unlocked1", 1);
+            //Change the Question# by 1
+            PlayerPrefs.SetInt("Question", PlayerPrefs.GetInt("Question") + 1);
+            //Go back to the Questions
+            ChangeToScene(3);
         }
     }
     public void ChangeToScene(int changeTheScene)
