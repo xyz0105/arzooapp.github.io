@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1424,10 +1424,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d19ddf200791b640a4e6f493a5ac417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  score: {fileID: 476321548}
+  wrongs: {fileID: 81524774}
+  rights: {fileID: 1357756655}
+  Score: 0
 --- !u!1 &236643918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4824,10 +4824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91741f1a11392f14abbf1609db81adc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  RhinoButton: {fileID: 588926798}
+  PandaButton: {fileID: 1052038371}
+  LeopardButton: {fileID: 282360974}
+  ResetConfirm: {fileID: 1458475488}
 --- !u!1 &691497586
 GameObject:
   m_ObjectHideFlags: 0
@@ -5721,7 +5721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -508.5, y: 176.74976}
+  m_AnchoredPosition: {x: -508.5002, y: 176.74979}
   m_SizeDelta: {x: 1000, y: 8000}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &778890969
@@ -10226,7 +10226,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1662572499}
   m_Direction: 0
   m_Value: 1
-  m_Size: 0.983
+  m_Size: 0.98299843
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -10474,10 +10474,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2870adfe18b75a24e9c7868fbf904eee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
+  RhinoButton: {fileID: 0}
+  PandaButton: {fileID: 0}
+  LeopardButton: {fileID: 0}
+  ResetConfirm: {fileID: 1458475488}
 --- !u!1 &1491165708
 GameObject:
   m_ObjectHideFlags: 0
@@ -12371,10 +12371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 889402a3893fb7d43af1ebcb983988de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1707506761
 GameObject:
   m_ObjectHideFlags: 0
@@ -13728,7 +13724,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 365781477}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.0441875
+  m_Size: 0.04418738
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
