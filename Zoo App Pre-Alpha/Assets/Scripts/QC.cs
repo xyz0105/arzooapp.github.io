@@ -320,11 +320,11 @@ public class QC : MonoBehaviour
         }
         */
         //Debugging tool, resets question # to 0
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*if (Input.GetKeyDown(KeyCode.Space))
         {
             PlayerPrefs.SetInt("Question", 0);
             PlayerPrefs.SetInt("Rights", 0);
             PlayerPrefs.SetInt("Wrongs", 0);
-        }
+        }*/
     }
 }
