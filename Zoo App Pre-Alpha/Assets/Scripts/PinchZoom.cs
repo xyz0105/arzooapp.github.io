@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PinchZoom : MonoBehaviour
 {
-    public GameObject textbox;
+   
     public GameObject CameraFollower;
     float widthFactor;
     float heightFactor;
@@ -27,7 +27,7 @@ public class PinchZoom : MonoBehaviour
     private void Update()
     {
 
-        Text debugText = textbox.GetComponent<Text>();
+       
         Vector3 cameraPosition = CameraFollower.transform.position;
         // Vector3 touch = Input.GetTouch(0).position;
         // text = "tap is at " + touch;
@@ -72,7 +72,7 @@ public class PinchZoom : MonoBehaviour
         }
         else
         {
-            debugText.text = "No Touch";
+            
             firstTouch = false;
 
         }
