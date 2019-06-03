@@ -67,7 +67,7 @@ public class AControl : MonoBehaviour
         //Southern White Rhinoceros
         if (PlayerPrefs.GetInt("Question") == 8)
         {
-            answer.text = "Less than 10 gallons";
+            answer.text = "20 gallons";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 9)
@@ -100,7 +100,7 @@ public class AControl : MonoBehaviour
         //Saddle-Billed Stork
         if (PlayerPrefs.GetInt("Question") == 14)
         {
-            answer.text = "The male and female look the same.";
+            answer.text = "The male and female both take care of the chicks.";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 15)
@@ -215,7 +215,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 35)
         {
-            answer.text = "Travel";
+            answer.text = "Traveling";
             correctanswer = false;
         }
         //Red-footed tortoise
@@ -230,20 +230,20 @@ public class AControl : MonoBehaviour
             correctanswer = false;
         }
         //Southern Pudu
-        if(PlayerPrefs.GetInt("Question") == 38)
+        if (PlayerPrefs.GetInt("Question") == 38)
         {
             answer.text = "By chasing out the top predators";
             correctanswer = false;
         }
-        if(PlayerPrefs.GetInt("Question") == 39)
+        if (PlayerPrefs.GetInt("Question") == 39)
         {
             answer.text = "White-tailed deer";
             correctanswer = true;
         }
         //Andean Bear
-        if(PlayerPrefs.GetInt("Question") == 40)
+        if (PlayerPrefs.GetInt("Question") == 40)
         {
-            answer.text = "Following them with helicopters";
+            answer.text = "Following them with drones";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 41)
@@ -251,24 +251,151 @@ public class AControl : MonoBehaviour
             answer.text = "Endangered";
             correctanswer = false;
         }
+        //Guinea Pig
+        if (PlayerPrefs.GetInt("Question") == 42)
+        {
+            answer.text = "Peruvian";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 43)
+        {
+            answer.text = "Peruvian";
+            correctanswer = true;
+        }
+        //Rhino Hornbill
+        if (PlayerPrefs.GetInt("Question") == 44)
+        {
+            answer.text = "Living with rhinoceros";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 45)
+        {
+            answer.text = "On the branches";
+            correctanswer = false;
+        }
+        //Red Panda
+        if (PlayerPrefs.GetInt("Question") == 46)
+        {
+            answer.text = "more active at dawn and dusk";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 47)
+        {
+            answer.text = "Habitat loss";
+            correctanswer = false;
+        }
+        //Clouded Leopard
+        if (PlayerPrefs.GetInt("Question") == 48)
+        {
+            answer.text = "Deer";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 49)
+        {
+            answer.text = "B, C, and D";
+            correctanswer = true;
+        }
+        //Ring-tailed Lemur
+        if (PlayerPrefs.GetInt("Question") == 50)
+        {
+            answer.text = "South Africa";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 51)
+        {
+            answer.text = "Sleeping, swimming, and eating";
+            correctanswer = false;
+        }
+        //Yellow-back Duiker
+        if (PlayerPrefs.GetInt("Question") == 52)
+        {
+            answer.text = "Agriculture expansion";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 53)
+        {
+            answer.text = "Deer, goat, sheep creature";
+            correctanswer = false;
+        }
+        //Red-Ruffed Lemur
+        if (PlayerPrefs.GetInt("Question") == 54)
+        {
+            answer.text = "active at noon";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 55)
+        {
+            answer.text = "special goggles";
+            correctanswer = false;
+        }
+        //Cougar
+        if (PlayerPrefs.GetInt("Question") == 56)
+        {
+            answer.text = "Habitat loss";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 57)
+        {
+            answer.text = "Least Concern";
+            correctanswer = true;
+        }
+        //Mexican Spider Monkey
+        if (PlayerPrefs.GetInt("Question") == 58)
+        {
+            answer.text = "3";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 59)
+        {
+            answer.text = "Highway construction";
+            correctanswer = false;
+        }
+        //Cape Porcupine
+        if (PlayerPrefs.GetInt("Question") == 60)
+        {
+            answer.text = "For their meat";
+            correctanswer = true;
+        }
+        if (PlayerPrefs.GetInt("Question") == 61)
+        {
+            answer.text = "Savannah";
+            correctanswer = false;
+        }
+        //Bard's Tapir and Crested Screamer
+        if (PlayerPrefs.GetInt("Question") == 62)
+        {
+            answer.text = "Near Threatened";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 63)
+        {
+            answer.text = "Their calls can be heard for several miles";
+            correctanswer = true;
+        }
+        //Caribbean Flamingo
+        if (PlayerPrefs.GetInt("Question") == 64)
+        {
+            answer.text = "Knee";
+            correctanswer = false;
+        }
+        if (PlayerPrefs.GetInt("Question") == 65)
+        {
+            answer.text = "They keep balance better this way";
+            correctanswer = false;
+        }
     }
 
     public void ChangeToScene(int changeTheScene)
     {
-    //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
+        //When clicked, send to the "Correct" scene if it's right, "Incorrect" scene if it's wrong
         if (correctanswer == true)
         {
-             changeTheScene = 4;
+            changeTheScene = 4;
         }
         if (correctanswer == false)
         {
-             changeTheScene = 5;
+            changeTheScene = 5;
         }
-     SceneManager.LoadScene(changeTheScene);
+        SceneManager.LoadScene(changeTheScene);
     }
 }
- 
- 
- 
- 
- 
