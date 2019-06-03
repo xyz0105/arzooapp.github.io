@@ -68,11 +68,9 @@
     <Compile Include="Assets\Scripts\DControl.cs" />
     <Compile Include="Assets\Scripts\GalleryControl.cs" />
     <Compile Include="Assets\Scripts\GoHere.cs" />
-    <Compile Include="Assets\Scripts\IDControl.cs" />
     <Compile Include="Assets\Scripts\ModelControl.cs" />
     <Compile Include="Assets\Scripts\PinchZoom.cs" />
     <Compile Include="Assets\Scripts\QC.cs" />
-    <Compile Include="Assets\Scripts\RemoveID.cs" />
     <Compile Include="Assets\Scripts\ResetControl.cs" />
     <Compile Include="Assets\Scripts\RightControl.cs" />
     <Compile Include="Assets\Scripts\ScannedTarget.cs" />
