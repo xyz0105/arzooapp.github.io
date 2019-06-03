@@ -68,9 +68,11 @@
     <Compile Include="Assets\Scripts\DControl.cs" />
     <Compile Include="Assets\Scripts\GalleryControl.cs" />
     <Compile Include="Assets\Scripts\GoHere.cs" />
+    <Compile Include="Assets\Scripts\IDControl.cs" />
     <Compile Include="Assets\Scripts\ModelControl.cs" />
     <Compile Include="Assets\Scripts\PinchZoom.cs" />
     <Compile Include="Assets\Scripts\QC.cs" />
+    <Compile Include="Assets\Scripts\RemoveID.cs" />
     <Compile Include="Assets\Scripts\ResetControl.cs" />
     <Compile Include="Assets\Scripts\RightControl.cs" />
     <Compile Include="Assets\Scripts\ScannedTarget.cs" />
@@ -95,19 +97,19 @@
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -314,19 +316,19 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/damonlc1/Documents/GitHub/arzooweb.github.io/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

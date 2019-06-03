@@ -13,11 +13,6 @@ public class GalleryControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Store actual objects inside the initialized variable
-        RhinoButton = GameObject.Find("RhinoButton");
-        PandaButton = GameObject.Find("PandaButton");
-        LeopardButton = GameObject.Find("LeopardButton");
-        //ResetConfirm = GameObject.Find("ResetConfirm");
 
         //Make sure ResetConfirm pop-up window starts out closed
         ResetConfirm.SetActive(false);
