@@ -252,19 +252,19 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>E:/Documents E/Unity/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>E:/Documents E/Unity/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/Documents E/Unity/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/Documents E/Unity/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/Documents E/Unity/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/Documents E/GitHub/Zoo App Pre-Alpha/Zoo App Pre-Alpha/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -649,7 +649,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ResetControl.cs" />
     <Compile Include="Assets\Scripts\AControl.cs" />
     <Compile Include="Assets\Scripts\BControl.cs" />
     <Compile Include="Assets\Scripts\ButtonPressed.cs" />
@@ -658,13 +657,18 @@
     <Compile Include="Assets\Scripts\DControl.cs" />
     <Compile Include="Assets\Scripts\GalleryControl.cs" />
     <Compile Include="Assets\Scripts\GoHere.cs" />
+    <Compile Include="Assets\Scripts\IDControl.cs" />
+    <Compile Include="Assets\Scripts\InactivityScript.cs" />
     <Compile Include="Assets\Scripts\ModelControl.cs" />
     <Compile Include="Assets\Scripts\PinchZoom.cs" />
     <Compile Include="Assets\Scripts\QC.cs" />
+    <Compile Include="Assets\Scripts\RemoveID.cs" />
+    <Compile Include="Assets\Scripts\ResetControl.cs" />
     <Compile Include="Assets\Scripts\RightControl.cs" />
     <Compile Include="Assets\Scripts\ScannedTarget.cs" />
     <Compile Include="Assets\Scripts\Scanner.cs" />
     <Compile Include="Assets\Scripts\SceneControl.cs" />
+    <Compile Include="Assets\Scripts\SetRotation.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\WRATMath.cs" />
     <Compile Include="Assets\Scripts\WriteText.cs" />
@@ -672,6 +676,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\StreamingAssets\Vuforia\Animal_Locations.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\FinalAnimalTarget.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\ZooAppTargets.xml" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />

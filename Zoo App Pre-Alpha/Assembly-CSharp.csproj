@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\GalleryControl.cs" />
     <Compile Include="Assets\Scripts\GoHere.cs" />
     <Compile Include="Assets\Scripts\IDControl.cs" />
+    <Compile Include="Assets\Scripts\InactivityScript.cs" />
     <Compile Include="Assets\Scripts\ModelControl.cs" />
     <Compile Include="Assets\Scripts\PinchZoom.cs" />
     <Compile Include="Assets\Scripts\QC.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\ScannedTarget.cs" />
     <Compile Include="Assets\Scripts\Scanner.cs" />
     <Compile Include="Assets\Scripts\SceneControl.cs" />
+    <Compile Include="Assets\Scripts\SetRotation.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\WRATMath.cs" />
     <Compile Include="Assets\Scripts\WriteText.cs" />
@@ -90,6 +92,7 @@
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\FinalAnimalTarget.xml" />
     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\Animal_Locations.xml" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
