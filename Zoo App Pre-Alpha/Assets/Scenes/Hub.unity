@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3153,9 +3153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d19ddf200791b640a4e6f493a5ac417, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 0}
-  wrongs: {fileID: 0}
-  rights: {fileID: 0}
+  score: {fileID: 476321548}
+  wrongs: {fileID: 81524774}
+  rights: {fileID: 1357756655}
   Score: 0
 --- !u!1 &236643918
 GameObject:
@@ -9725,7 +9725,7 @@ MonoBehaviour:
   RhinoButton: {fileID: 0}
   PandaButton: {fileID: 0}
   LeopardButton: {fileID: 0}
-  ResetConfirm: {fileID: 0}
+  ResetConfirm: {fileID: 1458475488}
 --- !u!1 &684850626
 GameObject:
   m_ObjectHideFlags: 0
@@ -11507,7 +11507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -508.5003, y: 406.14496}
+  m_AnchoredPosition: {x: -508.5, y: 176.74924}
   m_SizeDelta: {x: 1000, y: 8000}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &776676772
@@ -20483,8 +20483,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1662572500}
   m_HandleRect: {fileID: 1662572499}
   m_Direction: 0
-  m_Value: 1
-  m_Size: 0.98299974
+  m_Value: 0.9999964
+  m_Size: 0.9829999
   m_NumberOfSteps: 11
   m_OnValueChanged:
     m_PersistentCalls:
@@ -27096,8 +27096,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 365781478}
   m_HandleRect: {fileID: 365781477}
   m_Direction: 2
-  m_Value: 0.96999997
-  m_Size: 0.0441875
+  m_Value: 1
+  m_Size: 0.044169493
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
