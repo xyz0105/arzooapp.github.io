@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GalleryControl : MonoBehaviour
 {
@@ -39,6 +40,10 @@ public class GalleryControl : MonoBehaviour
     public GameObject Tapir;
     public GameObject Screamer;
     public GameObject Flamingo;
+
+    //Initialize scrollbars
+    public Scrollbar HScrollbar;
+    public Scrollbar VScrollbar;
 
     //Initialize pop-up window
     public GameObject ResetConfirm;
@@ -317,6 +322,20 @@ public class GalleryControl : MonoBehaviour
         {
             Flamingo.SetActive(true);
         }
+
+        //Set the scrolling position to the center top
+        VScrollbar.value = 1;
+        HScrollbar.value = 0.5f;
+    }
+
+    public void ScrollToTop()
+    {
+        VScrollbar.value = 1;
+    }
+
+    public void ScrollToBottom()
+    {
+        VScrollbar.value = 0;
     }
 
     public void ChooseProjection(int modelnumber)
