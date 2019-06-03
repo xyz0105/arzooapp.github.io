@@ -20,6 +20,12 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
     
     void Start()
     {
+        bool focusModeSet = CameraDevice.Instance.SetFocusMode(
+    CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
+        if (!focusModeSet)
+        {
+            StartCoroutine(ManualFocus());
+        }
         warning = GameObject.Find("Warning");
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
@@ -46,7 +52,7 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
                 done = true;
                 animal = "You have scanned the " + animal + "!";
 
-                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/3 + 1)) == 0)
+                if (PlayerPrefs.GetInt("Unlocked" + ((ScannedTarget/2) + 1)) == 0)
                 {
 
                     Text animalText = textBox.GetComponent<Text>();
@@ -67,5 +73,8 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
     IEnumerator InvalidTarget() { yield return new WaitForSeconds(5);
         done = false;
             warning.transform.localScale = new Vector3(0, 0, 0); ;
+    }
+    IEnumerator ManualFocus()  { yield return new WaitForSeconds(1); bool focusModeSet = CameraDevice.Instance.SetFocusMode(
+    CameraDevice.FocusMode.FOCUS_MODE_CONTINUOUSAUTO);
     }
 }
