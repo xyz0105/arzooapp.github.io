@@ -32,11 +32,11 @@ public class QC : MonoBehaviour
         //Stanely Crane
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            question.text = "Which is NOT a danger Stanely cranes face?";
+            question.text = "Which is NOT a danger Stanley cranes face?";
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {
-            question.text = "Where do Stanely cranes live?";
+            question.text = "Where do Stanley cranes live?";
         }
         //Gibbon
         if (PlayerPrefs.GetInt("Question") == 4)
@@ -77,7 +77,7 @@ public class QC : MonoBehaviour
         //Meerkat
         if (PlayerPrefs.GetInt("Question") == 12)
         {
-            question.text = "Where are groups of meerkats called?";
+            question.text = "What are groups of meerkats called?";
         }
         if (PlayerPrefs.GetInt("Question") == 13)
         {
@@ -140,7 +140,7 @@ public class QC : MonoBehaviour
         //Ostrich
         if (PlayerPrefs.GetInt("Question") == 26)
         {
-            question.text = "An ostrich’s intestine is as long as a _____ ___ to help them digest their food.";
+            question.text = "An ostrich’s intestine is as long as a _____ _____ to help them digest their food.";
         }
         if (PlayerPrefs.GetInt("Question") == 27)
         {
@@ -149,7 +149,7 @@ public class QC : MonoBehaviour
         //Springbok
         if (PlayerPrefs.GetInt("Question") == 28)
         {
-            question.text = "_______is where springbok repeatedly jump up to 9 feet in the air when startled for playing.";
+            question.text = "_______ is where springbok repeatedly jump up to 9 feet in the air when startled for playing.";
         }
         if (PlayerPrefs.GetInt("Question") == 29)
         {

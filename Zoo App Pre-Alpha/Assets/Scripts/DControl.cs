@@ -28,7 +28,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = " Illegal pet trade and habitat loss";
+            answer.text = "Illegal pet trade and habitat loss";
             correctanswer = true;
         }
         //Stanely Crane

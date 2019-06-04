@@ -50,7 +50,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "Annouce location";
+            answer.text = "Announce location";
             correctanswer = false;
         }
         //Red River Hog
@@ -72,7 +72,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 9)
         {
-            answer.text = "Wealthy people throught Asia believe rhino horns can cure diseases.";
+            answer.text = "Wealthy people throughout Asia believe rhino horns can cure diseases.";
             correctanswer = false;
         }
         //Giraffe
