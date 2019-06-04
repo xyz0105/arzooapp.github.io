@@ -12,6 +12,7 @@ public class WRATMath : MonoBehaviour
     public Text completion;
     public int Score;
     public int Completion;
+    public GameObject AllComplete;
 
     // Start is called before the first frame update
     void Start()
