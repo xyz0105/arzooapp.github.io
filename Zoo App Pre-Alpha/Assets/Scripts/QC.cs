@@ -32,11 +32,11 @@ public class QC : MonoBehaviour
         //Stanely Crane
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            question.text = "Which is not a danger Stanely cranes face?";
+            question.text = "Which is NOT a danger Stanley cranes face?";
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {
-            question.text = "Where do Stanely cranes live?";
+            question.text = "Where do Stanley cranes live?";
         }
         //Gibbon
         if (PlayerPrefs.GetInt("Question") == 4)
@@ -77,7 +77,7 @@ public class QC : MonoBehaviour
         //Meerkat
         if (PlayerPrefs.GetInt("Question") == 12)
         {
-            question.text = "Where are groups of meerkats called?";
+            question.text = "What are groups of meerkats called?";
         }
         if (PlayerPrefs.GetInt("Question") == 13)
         {
@@ -122,7 +122,7 @@ public class QC : MonoBehaviour
         //Bontebok
         if (PlayerPrefs.GetInt("Question") == 22)
         {
-            question.text = "Which trait protected the Bontebok from extinction?";
+            question.text = "Which trait protected the bontebok from extinction?";
         }
         if (PlayerPrefs.GetInt("Question") == 23)
         {
@@ -140,7 +140,7 @@ public class QC : MonoBehaviour
         //Ostrich
         if (PlayerPrefs.GetInt("Question") == 26)
         {
-            question.text = "An ostrich’s intestine is as long as a _____ ___to help them digest their food.";
+            question.text = "An ostrich’s intestine is as long as a _____ _____ to help them digest their food.";
         }
         if (PlayerPrefs.GetInt("Question") == 27)
         {
@@ -149,7 +149,7 @@ public class QC : MonoBehaviour
         //Springbok
         if (PlayerPrefs.GetInt("Question") == 28)
         {
-            question.text = "_______is where springbok repeatedly jump up to 9 feet in the air when startled for playing.";
+            question.text = "_______ is where springbok repeatedly jump up to 9 feet in the air when startled for playing.";
         }
         if (PlayerPrefs.GetInt("Question") == 29)
         {
@@ -279,7 +279,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            question.text = "What is the conservation status of cougars?";
+            question.text = "Which of the following is NOT a name for cougars?";
         }
         //Mexican Spider Monkey
         if (PlayerPrefs.GetInt("Question") == 58)
@@ -299,10 +299,10 @@ public class QC : MonoBehaviour
         {
             question.text = "Where would you NOT find a porcupine?";
         }
-        //Bard's Tapir and Crested Screamer
+        //Baird's Tapir and Crested Screamer
         if (PlayerPrefs.GetInt("Question") == 62)
         {
-            question.text = "What is the conservation status of Bard’s tapir?";
+            question.text = "What is the conservation status of the tapir?";
         }
         if (PlayerPrefs.GetInt("Question") == 63)
         {

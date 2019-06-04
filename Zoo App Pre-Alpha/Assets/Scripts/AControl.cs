@@ -50,7 +50,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "Annouce location";
+            answer.text = "Announce location";
             correctanswer = false;
         }
         //Red River Hog
@@ -72,7 +72,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 9)
         {
-            answer.text = "Wealthy people throught Asia believe rhino horns can cure diseases.";
+            answer.text = "Wealthy people throughout Asia believe rhino horns can cure diseases.";
             correctanswer = false;
         }
         //Giraffe
@@ -116,7 +116,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "They spend most of their time away from other members of their species except to mate and possibly riase their young.";
+            answer.text = "They spend time away from other members except to mate and raise young.";
             correctanswer = true;
         }
         //Kangaroo
@@ -138,13 +138,13 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 21)
         {
-            answer.text = "By raising their body temperature so they do not need to sweat";
+            answer.text = "By raising their body temperature so they don't sweat";
             correctanswer = true;
         }
         //Bontebok
         if (PlayerPrefs.GetInt("Question") == 22)
         {
-            answer.text = "The ability to stab predators with their large horns";
+            answer.text = "The ability to stab predators with their horns";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 23)
@@ -226,7 +226,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 37)
         {
-            answer.text = "Habitat loss";
+            answer.text = "Agricultural expansion";
             correctanswer = false;
         }
         //Southern Pudu
@@ -292,7 +292,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            answer.text = "B, C, and D";
+            answer.text = "All of the above";
             correctanswer = true;
         }
         //Ring-tailed Lemur
@@ -336,7 +336,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            answer.text = "Least Concern";
+            answer.text = "Lynx";
             correctanswer = true;
         }
         //Mexican Spider Monkey

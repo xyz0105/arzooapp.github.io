@@ -28,7 +28,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 1)
         {
-            answer.text = " Illegal pet trade and habitat loss";
+            answer.text = "Illegal pet trade and habitat loss";
             correctanswer = true;
         }
         //Stanely Crane
@@ -83,7 +83,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 11)
         {
-            answer.text = "The one with the purple tongue";
+            answer.text = "The one with a purple tongue";
             correctanswer = false;
         }
         //Meerkats
@@ -133,7 +133,7 @@ public class DControl : MonoBehaviour
         //Eland
         if (PlayerPrefs.GetInt("Question") == 20)
         {
-            answer.text = "Algeria";
+            answer.text = "Kenya";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 21)
@@ -152,7 +152,7 @@ public class DControl : MonoBehaviour
             answer.text = "1933";
             correctanswer = false;
         }
-        //Greyt crowned crane
+        //Grey crowned crane
         if (PlayerPrefs.GetInt("Question") == 24)
         {
             answer.text = "All of the above";
@@ -171,7 +171,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 27)
         {
-            answer.text = "Forset fire";
+            answer.text = "Forest fire";
             correctanswer = false;
         }
         //Springbok
@@ -226,8 +226,8 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 37)
         {
-            answer.text = "Both A and C";
-            correctanswer = true;
+            answer.text = "All of the above";
+            correctanswer = false;
         }
         //Sothern Pudu
         if (PlayerPrefs.GetInt("Question") == 38)
@@ -336,7 +336,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            answer.text = "Endangered";
+            answer.text = "Puma";
             correctanswer = false;
         }
         //Mexican Spider Monkey

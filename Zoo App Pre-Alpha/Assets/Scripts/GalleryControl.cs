@@ -337,9 +337,4 @@ public class GalleryControl : MonoBehaviour
     {
         VScrollbar.value = 0;
     }
-
-    public void ChooseProjection(int modelnumber)
-    {
-        PlayerPrefs.SetInt("ModelNumber", modelnumber);
-    }
 }
