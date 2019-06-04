@@ -37,6 +37,11 @@ public class ModelControl : MonoBehaviour
         }
     }
 
+    public void ChooseProjection(int modelnumber)
+    {
+        PlayerPrefs.SetInt("ModelNumber", modelnumber);
+    }
+
     // Update is called once per frame
     void Update()
     {
