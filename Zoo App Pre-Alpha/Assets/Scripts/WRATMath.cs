@@ -12,7 +12,7 @@ public class WRATMath : MonoBehaviour
     public Text completion;
     public int Score;
     public int Completion;
-    public GameObject AllComplete;
+    public GameObject CongratsController;
 
     // Start is called before the first frame update
     void Start()
@@ -38,9 +38,12 @@ public class WRATMath : MonoBehaviour
         {
             Completion += PlayerPrefs.GetInt("Unlocked" + i);
         }
+    }
 
-        //Set the text to Completion out of 33
-        completion.text = Completion + "/33";
+    public void ExitWindow()
+    {
+        CongratsController.SetActive(false);
+        PlayerPrefs.SetInt("Congratulated", 1);
     }
 
     // Update is called once per frame
@@ -56,6 +59,17 @@ public class WRATMath : MonoBehaviour
         {
             //Otherwise make it black
             score.color = Color.black;
+        }
+
+        //Set the text to Completion out of 33
+        completion.text = Completion + "/33";
+
+        if (Completion > 32)
+        {
+            if (PlayerPrefs.GetInt("Congratulated") == 0)
+            {
+                CongratsController.SetActive(true);
+            }
         }
     }
 }
