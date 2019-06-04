@@ -625,7 +625,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: They spend time away from other members except to mate and riase their young.
+  m_Text: A
 --- !u!222 &522004085
 CanvasRenderer:
   m_ObjectHideFlags: 0
