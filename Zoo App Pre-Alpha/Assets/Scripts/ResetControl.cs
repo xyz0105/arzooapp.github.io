@@ -76,6 +76,7 @@ public class ResetControl : MonoBehaviour
         PlayerPrefs.SetInt("Rights", 0);
         PlayerPrefs.SetInt("Wrongs", 0);
         PlayerPrefs.SetInt("ModelNumber", 0);
+        PlayerPrefs.SetInt("Congratulated", 0);
         for (int i = 0; i < 34; i++)
         {
             PlayerPrefs.SetInt("Unlocked"+i, 0);
