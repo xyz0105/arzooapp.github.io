@@ -83,7 +83,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 11)
         {
-            answer.text = "The one with the purple tongue";
+            answer.text = "The one with a purple tongue";
             correctanswer = false;
         }
         //Meerkats
@@ -133,7 +133,7 @@ public class DControl : MonoBehaviour
         //Eland
         if (PlayerPrefs.GetInt("Question") == 20)
         {
-            answer.text = "Algeria";
+            answer.text = "Kenya";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 21)
@@ -152,7 +152,7 @@ public class DControl : MonoBehaviour
             answer.text = "1933";
             correctanswer = false;
         }
-        //Greyt crowned crane
+        //Grey crowned crane
         if (PlayerPrefs.GetInt("Question") == 24)
         {
             answer.text = "All of the above";
@@ -171,7 +171,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 27)
         {
-            answer.text = "Forset fire";
+            answer.text = "Forest fire";
             correctanswer = false;
         }
         //Springbok

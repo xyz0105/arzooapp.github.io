@@ -160,7 +160,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 25)
         {
-            answer.text = "extinct cranes";
+            answer.text = "eloquent cranes";
             correctanswer = false;
         }
         //Ostrich

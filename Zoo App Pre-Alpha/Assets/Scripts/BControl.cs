@@ -160,7 +160,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 25)
         {
-            answer.text = "endangered fossils";
+            answer.text = "endangered fossil";
             correctanswer = false;
         }
         //Ostrich

@@ -32,7 +32,7 @@ public class QC : MonoBehaviour
         //Stanely Crane
         if (PlayerPrefs.GetInt("Question") == 2)
         {
-            question.text = "Which is not a danger Stanely cranes face?";
+            question.text = "Which is NOT a danger Stanely cranes face?";
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {
@@ -122,7 +122,7 @@ public class QC : MonoBehaviour
         //Bontebok
         if (PlayerPrefs.GetInt("Question") == 22)
         {
-            question.text = "Which trait protected the Bontebok from extinction?";
+            question.text = "Which trait protected the bontebok from extinction?";
         }
         if (PlayerPrefs.GetInt("Question") == 23)
         {
@@ -140,7 +140,7 @@ public class QC : MonoBehaviour
         //Ostrich
         if (PlayerPrefs.GetInt("Question") == 26)
         {
-            question.text = "An ostrich’s intestine is as long as a _____ ___to help them digest their food.";
+            question.text = "An ostrich’s intestine is as long as a _____ ___ to help them digest their food.";
         }
         if (PlayerPrefs.GetInt("Question") == 27)
         {
