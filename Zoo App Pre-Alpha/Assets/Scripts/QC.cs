@@ -279,7 +279,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            question.text = "What is the conservation status of cougars?";
+            question.text = "Which of the following is NOT a name for cougars?";
         }
         //Mexican Spider Monkey
         if (PlayerPrefs.GetInt("Question") == 58)
@@ -299,10 +299,10 @@ public class QC : MonoBehaviour
         {
             question.text = "Where would you NOT find a porcupine?";
         }
-        //Bard's Tapir and Crested Screamer
+        //Baird's Tapir and Crested Screamer
         if (PlayerPrefs.GetInt("Question") == 62)
         {
-            question.text = "What is the conservation status of Bard’s tapir?";
+            question.text = "What is the conservation status of the tapir?";
         }
         if (PlayerPrefs.GetInt("Question") == 63)
         {

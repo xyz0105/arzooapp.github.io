@@ -226,8 +226,8 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 37)
         {
-            answer.text = "Both A and C";
-            correctanswer = true;
+            answer.text = "All of the above";
+            correctanswer = false;
         }
         //Sothern Pudu
         if (PlayerPrefs.GetInt("Question") == 38)
@@ -336,7 +336,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            answer.text = "Endangered";
+            answer.text = "Puma";
             correctanswer = false;
         }
         //Mexican Spider Monkey

@@ -226,8 +226,8 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 37)
         {
-            answer.text = "Collection for pet trade";
-            correctanswer = false;
+            answer.text = "Collection for pet trade and habitat loss";
+            correctanswer = true;
         }
         //Southern Pudu
         if (PlayerPrefs.GetInt("Question") == 38)
@@ -336,7 +336,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            answer.text = "Vulnerable";
+            answer.text = "Mountain Lion";
             correctanswer = false;
         }
         //Mexican Spider Monkey

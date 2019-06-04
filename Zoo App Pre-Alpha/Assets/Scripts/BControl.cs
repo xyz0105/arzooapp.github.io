@@ -265,7 +265,7 @@ public class BControl : MonoBehaviour
         //Rhino Hornbill
         if (PlayerPrefs.GetInt("Question") == 44)
         {
-            answer.text = "Horn-;ike casque on its upper mandible";
+            answer.text = "Horn-like casque on its upper mandible";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 45)
@@ -325,7 +325,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 55)
         {
-            answer.text = "posterior Chambers";
+            answer.text = "posterior chambers";
             correctanswer = false;
         }
         //Cougar
@@ -336,7 +336,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            answer.text = "Near Threatened";
+            answer.text = "Cougar";
             correctanswer = false;
         }
         //Mexican Spider Monkey

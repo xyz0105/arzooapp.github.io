@@ -226,7 +226,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 37)
         {
-            answer.text = "Habitat loss";
+            answer.text = "Agricultural expansion";
             correctanswer = false;
         }
         //Southern Pudu
@@ -336,7 +336,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 57)
         {
-            answer.text = "Least Concern";
+            answer.text = "Lynx";
             correctanswer = true;
         }
         //Mexican Spider Monkey
