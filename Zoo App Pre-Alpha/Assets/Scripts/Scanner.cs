@@ -46,7 +46,7 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
                 done = true;
                 animal = "You have scanned the " + animal + "!";
 
-                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/3 + 1)) == 0)
+                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/2 + 1)) == 0)
                 {
 
                     Text animalText = textBox.GetComponent<Text>();
