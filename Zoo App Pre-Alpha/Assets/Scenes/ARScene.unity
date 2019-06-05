@@ -562,7 +562,7 @@ GameObject:
   - component: {fileID: 825238370}
   m_Layer: 0
   m_Name: Rhino
-  m_TagString: Untagged
+  m_TagString: Rhino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalname: Rhino
-  animalmodel: {fileID: 1375080448}
+  animalmodels: []
   slider: {fileID: 1276044500}
   sizeslider: {fileID: 1376669728}
 --- !u!1 &865107103
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Script: {fileID: -1826476478, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mWorldCenterMode: 2
+  mWorldCenterMode: 1
   mWorldCenter: {fileID: 0}
 --- !u!81 &1212134970
 AudioListener:
@@ -1814,7 +1814,7 @@ GameObject:
   - component: {fileID: 1558677581}
   m_Layer: 0
   m_Name: Leopard
-  m_TagString: Untagged
+  m_TagString: Leopard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalname: Leopard
-  animalmodel: {fileID: 1558677576}
+  animalmodels: []
   slider: {fileID: 1276044500}
   sizeslider: {fileID: 1376669728}
 --- !u!1 &1671753996
@@ -2111,7 +2111,7 @@ GameObject:
   - component: {fileID: 1935991485}
   m_Layer: 0
   m_Name: Panda
-  m_TagString: Untagged
+  m_TagString: Panda
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2201,7 +2201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalname: Panda
-  animalmodel: {fileID: 1935991480}
+  animalmodels: []
   slider: {fileID: 1276044500}
   sizeslider: {fileID: 1376669728}
 --- !u!1 &1972173991

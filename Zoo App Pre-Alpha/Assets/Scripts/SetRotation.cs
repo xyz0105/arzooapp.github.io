@@ -8,7 +8,6 @@ public class SetRotation : MonoBehaviour
     
     public string animalname;
     public GameObject[] animalmodels;
-    public GameObject animalmodel;
     public Slider slider;
     public Slider sizeslider;
     
