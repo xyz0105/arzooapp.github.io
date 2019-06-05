@@ -23,7 +23,7 @@ public class DControl : MonoBehaviour
         //Hyacinth Macaw
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "Insects";
+            answer.text = "Small insects";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 1)
