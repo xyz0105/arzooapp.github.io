@@ -39,7 +39,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 3)
         {
-            answer.text = "South Africa";
+            answer.text = "Africa";
             correctanswer = true;
         }
         //Gibbon
