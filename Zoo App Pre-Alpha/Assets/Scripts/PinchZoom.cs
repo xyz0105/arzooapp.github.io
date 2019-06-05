@@ -46,7 +46,7 @@ public class PinchZoom : MonoBehaviour
             }
             currentTouch = new Vector3(camerax, cameray, 0);
 
-            CameraFollower.transform.position = Clamp(cameraStart + initialTouch - currentTouch);
+            CameraFollower.transform.position = Clamp(cameraStart + (Camera.main.fieldOfView / 41) * (initialTouch - currentTouch));
 
             // debugText.text = "camera is at " + camerax + ", " + cameray;
 
