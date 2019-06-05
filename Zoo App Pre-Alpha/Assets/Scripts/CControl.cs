@@ -23,7 +23,7 @@ public class CControl : MonoBehaviour
         //Hyacinth Macaw
         if (PlayerPrefs.GetInt("Question") == 0)
         {
-            answer.text = "Cabbage";
+            answer.text = "Fruit";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 1)
