@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SetRotation : MonoBehaviour
 {
     public GameObject animalmodel;
+    public string animalname;
     public Slider slider;
     public Slider sizeslider;
     // Start is called before the first frame update
