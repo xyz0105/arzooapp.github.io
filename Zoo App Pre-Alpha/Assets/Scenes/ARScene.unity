@@ -650,8 +650,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156e54def9488744687de944ccedb792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalmodel: {fileID: 825238365}
-  animalname: 
+  animalname: Rhino
+  animalmodel: {fileID: 1375080448}
   slider: {fileID: 1276044500}
   sizeslider: {fileID: 1376669728}
 --- !u!1 &865107103
@@ -1538,7 +1538,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 1671753997}
   m_HandleRect: {fileID: 2100576065}
   m_Direction: 2
-  m_MinValue: 1
+  m_MinValue: 0
   m_MaxValue: 10
   m_WholeNumbers: 0
   m_Value: 1
@@ -1879,8 +1879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156e54def9488744687de944ccedb792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animalname: Leopard
   animalmodel: {fileID: 1558677576}
-  animalname: 
   slider: {fileID: 1276044500}
   sizeslider: {fileID: 1376669728}
 --- !u!1 &1671753996
@@ -2176,8 +2176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156e54def9488744687de944ccedb792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animalname: Panda
   animalmodel: {fileID: 1935991480}
-  animalname: 
   slider: {fileID: 1276044500}
   sizeslider: {fileID: 1376669728}
 --- !u!1 &1972173991
