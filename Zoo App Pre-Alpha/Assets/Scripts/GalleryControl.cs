@@ -326,6 +326,12 @@ public class GalleryControl : MonoBehaviour
         //Set the scrolling position to the center top
         VScrollbar.value = 1;
         HScrollbar.value = 0.5f;
+
+        //Print all unlocked values to console
+        for (int i = 0; i < 34; i++)
+        {
+            print("Unlocked" + i + ": " + PlayerPrefs.GetInt("Unlocked" + i));
+        }
     }
 
     public void ScrollToTop()
