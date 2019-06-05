@@ -18,6 +18,13 @@ public class SetRotation : MonoBehaviour
         print(animalname);
     }
 
+    private void Update()
+    {
+        animalmodel = GameObject.Find(animalname);
+        animalmodel.transform.localEulerAngles = new Vector3(270, slider.value, 0);
+        animalmodel.transform.localScale = new Vector3(sizeslider.value, sizeslider.value, sizeslider.value);
+    }
+
     public void Rotate() { animalmodel.transform.localEulerAngles = new Vector3(270, slider.value, 0); }
     
     public void Size() { animalmodel.transform.localScale = new Vector3(sizeslider.value, sizeslider.value, sizeslider.value); }

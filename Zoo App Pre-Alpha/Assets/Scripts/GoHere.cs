@@ -12,7 +12,7 @@ public class GoHere : MonoBehaviour
     public int currentLocation;
     public int locationLimit;
     public GameObject textBox;
-    
+    int Completion;
 
 
 
@@ -59,16 +59,21 @@ public class GoHere : MonoBehaviour
     // The target next location selects 
     void Start()
     {
-        
+
         // PlayerPrefs.SetInt("Unlocked1", 0);
         // PlayerPrefs.SetInt("Unlocked2", 0);
         // PlayerPrefs.SetInt("Unlocked3", 0);
         // sets current location to the location code that corrosponds to the last question asked
-        currentLocation = (PlayerPrefs.GetInt("Question") / 2) + 0;
-        
-        
+        for (int i = 0; i < 34; i++)
+        {
+            Completion += PlayerPrefs.GetInt("Unlocked" + i);
+        }
+        if (Completion < 33)
+        {
+            currentLocation = (PlayerPrefs.GetInt("Question") / 2) + 0;
             TestCompletion(currentLocation);
-        
+        }
+        else { Text mapText = textBox.GetComponent<Text>(); mapText.text = "Every animal is complete! Reset your game in the Gallery."; }
         
         
     }
@@ -227,4 +232,6 @@ public class GoHere : MonoBehaviour
         Text mapText = textBox.GetComponent<Text>();
         mapText.text = "Next, you must find the " + names[number - 1] + ".";
     }
+
+
 } 
