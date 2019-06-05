@@ -12,12 +12,12 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
 
     
     public int ScannedTarget;
-    public GameObject referenceObject;
+    //public GameObject referenceObject;
     public GameObject textBox;
     public string animal;
     private bool done;
     private GameObject warning;
-
+    
     void Start()
     {
         warning = GameObject.Find("Warning");
@@ -39,14 +39,14 @@ public class Scanner : MonoBehaviour, ITrackableEventHandler
                 newStatus == TrackableBehaviour.Status.TRACKED)
             {
 
-                ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
-                scorePointsScript.AnimalScanned(ScannedTarget);
+               // ScannedTarget scorePointsScript = referenceObject.GetComponent<ScannedTarget>();
+               // scorePointsScript.AnimalScanned(ScannedTarget);
 
                 PlayerPrefs.SetInt("Question", ScannedTarget);
                 done = true;
                 animal = "You have scanned the " + animal + "!";
 
-                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/3 + 1)) == 0)
+                if (PlayerPrefs.GetInt("Unlocked" + (ScannedTarget/2 + 1)) == 0)
                 {
 
                     Text animalText = textBox.GetComponent<Text>();

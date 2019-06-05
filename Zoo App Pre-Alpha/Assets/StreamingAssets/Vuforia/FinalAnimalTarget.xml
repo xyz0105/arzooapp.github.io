@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Cape_Porcupine" size="1.000000 0.315166" />
+    <ImageTarget name="Ring_Tailed_Lemur" size="1.000000 0.253642" />
+    <ImageTarget name="Clouded_Leopard" size="1.000000 0.765269" />
+    <ImageTarget name="Sumatran_Tiger" size="1.000000 0.425954" />
+    <ImageTarget name="Stanley_Crane" size="1.000000 0.491031" />
+    <ImageTarget name="Zebra" size="1.000000 0.433333" />
+    <ImageTarget name="Tapir" size="1.000000 0.643087" />
+    <ImageTarget name="Sulcata_Tortoise" size="1.000000 0.662866" />
+    <ImageTarget name="Stork" size="1.000000 0.107456" />
+    <ImageTarget name="Springbok" size="1.000000 0.420530" />
+    <ImageTarget name="Rhinoceros" size="1.000000 0.308171" />
+    <ImageTarget name="Rhino_Hornbill" size="1.000000 0.263846" />
+    <ImageTarget name="Red_River_Hog" size="1.000000 0.514905" />
+    <ImageTarget name="Red_Panda" size="1.000000 0.595082" />
+    <ImageTarget name="Red_Footed_Tortoise" size="1.000000 0.567213" />
+    <ImageTarget name="Pudu" size="1.000000 0.649860" />
+    <ImageTarget name="Ostrich" size="1.000000 0.333333" />
+    <ImageTarget name="Mexican_Spider_Monkey" size="1.000000 0.465177" />
+    <ImageTarget name="Meerkat" size="1.000000 0.459459" />
+    <ImageTarget name="Macaw" size="1.000000 1.076655" />
+    <ImageTarget name="Leopard" size="1.000000 0.474265" />
+    <ImageTarget name="Lemur" size="1.000000 0.285545" />
+    <ImageTarget name="Kangoaroo2" size="1.000000 0.371663" />
+    <ImageTarget name="Kangoaroo" size="1.000000 0.213816" />
+    <ImageTarget name="Guinea_Pig" size="1.000000 0.494523" />
+    <ImageTarget name="Grey_Crowned_Crane" size="1.000000 0.272910" />
+    <ImageTarget name="Giraffe" size="1.000000 0.158954" />
+    <ImageTarget name="Gibbon" size="1.000000 0.282927" />
+    <ImageTarget name="Flamingo" size="1.000000 0.495000" />
+    <ImageTarget name="Eland" size="1.000000 0.356932" />
+    <ImageTarget name="Duiker" size="1.000000 0.275862" />
+    <ImageTarget name="Crested_Screamer" size="1.000000 0.455399" />
+    <ImageTarget name="Cougar" size="1.000000 0.234099" />
+    <ImageTarget name="Cassowary" size="1.000000 0.234586" />
+    <ImageTarget name="Bontebok" size="1.000000 0.345056" />
+    <ImageTarget name="Andean_Bear" size="1.000000 0.812925" />
+  </Tracking>
+</QCARConfig>

@@ -9,6 +9,7 @@ Assets/AssetStoreTools*
 *.suo
 LastSceneManagerSetup.txt
 CurrentLayout.dwlt
+*CurrentLayout.dwlt
 Assembly-CSharp.dll
 Assembly-CSharp.pdb
 storage.ide-shm
