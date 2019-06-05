@@ -17,6 +17,11 @@ public class SceneControl : MonoBehaviour
         
     }
 
+    public void XOut ()
+    {
+        PhotoAcknowledgements.SetActive(false);
+    }
+
 
 }
 
