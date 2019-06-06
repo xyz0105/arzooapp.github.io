@@ -1302,7 +1302,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Every animal is complete! Reset your game in the Gallery.
+  m_Text: 
 --- !u!222 &980424933
 CanvasRenderer:
   m_ObjectHideFlags: 0
