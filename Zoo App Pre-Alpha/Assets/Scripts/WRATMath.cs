@@ -23,21 +23,9 @@ public class WRATMath : MonoBehaviour
         rights.text = "";
         Completion = 0;
 
-        //Calculates
-        Score = PlayerPrefs.GetInt("Rights") * 100 + PlayerPrefs.GetInt("Wrongs") * -25;
-
-        //Displays score
-        score.text = "Score: " + Score;
-
         //Debugging values, should be hidden on actual launch of app
         wrongs.text = PlayerPrefs.GetInt("Wrongs") + " Wrongs";
         rights.text = PlayerPrefs.GetInt("Rights") + " Rights";
-
-        //Completion is set to the value of all of the Unlocked PlayerPrefs added together
-        for(int i = 0; i < 34; i++)
-        {
-            Completion += PlayerPrefs.GetInt("Unlocked" + i);
-        }
     }
 
     public void ExitWindow()
@@ -49,8 +37,15 @@ public class WRATMath : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //Calculates
+        Score = PlayerPrefs.GetInt("Rights") * 100 + PlayerPrefs.GetInt("Wrongs") * -25;
+
+        //Displays score
+        score.text = "Score: " + Score;
+
         //if score is 6600 (maximum) or higher
-        if(Score > 6599)
+        if (Score > 6599)
         {
             //Set the color to gold
             score.color = new Vector4(255f, 0.843f, 0f, 1f);
@@ -59,6 +54,13 @@ public class WRATMath : MonoBehaviour
         {
             //Otherwise make it black
             score.color = Color.black;
+        }
+
+        //Completion is set to the value of all of the Unlocked PlayerPrefs added together
+        Completion = 0;
+        for(int i = 0; i < 34; i++)
+        {
+            Completion += PlayerPrefs.GetInt("Unlocked" + i);
         }
 
         //Set the text to Completion out of 33
