@@ -62,7 +62,7 @@ public class WRATMath : MonoBehaviour
         }
 
         //Set the text to Completion out of 33
-        completion.text = Completion + "/33";
+        completion.text = "Completion: " + Completion + "/33";
 
         if (Completion > 32)
         {
