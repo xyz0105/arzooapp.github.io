@@ -1075,7 +1075,7 @@ MonoBehaviour:
     m_TypeName: Vuforia.HitTestEvent, Vuforia.UnityExtensions, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   mDisplayAdvanced: 0
-  mHitTestMode: 0
+  mHitTestMode: 1
 --- !u!114 &1108739114
 MonoBehaviour:
   m_ObjectHideFlags: 0
