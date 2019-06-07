@@ -45,12 +45,12 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            question.text = "Why do white-cheeked gibbons vocalize?";
+            question.text = "What color are newborn gibbons?";
         }
         //Red River Hog
         if (PlayerPrefs.GetInt("Question") == 6)
         {
-            question.text = "Which continent do red river hogs live on?";
+            question.text = "What is a distinctive feature of the red river hog?";
         }
         if (PlayerPrefs.GetInt("Question") == 7)
         {
@@ -99,7 +99,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            question.text = "Why are cassowaries considered solitary animals?";
+            question.text = "What is the casque of the cassowary made of?";
         }
         //Kangaroo
         if (PlayerPrefs.GetInt("Question") == 18)
@@ -162,7 +162,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            question.text = "Where do zebras live?";
+            question.text = "What time of the year are zebras born?";
         }
         //Sulcata Tortoise
         if (PlayerPrefs.GetInt("Question") == 32)
@@ -176,7 +176,7 @@ public class QC : MonoBehaviour
         //Sumatran Tiger
         if (PlayerPrefs.GetInt("Question") == 34)
         {
-            question.text = "Why are Sumatran tigers endangered?";
+            question.text = "Which is NOT a reason Sumatran tigers endangered?";
         }
         if (PlayerPrefs.GetInt("Question") == 35)
         {
@@ -207,7 +207,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 41)
         {
-            question.text = "What is the conservation status of Andean bears?";
+            question.text = "What does the Nashville Zoo participate in to help Andean Bears?";
         }
         //Guinea Pig
         if (PlayerPrefs.GetInt("Question") == 42)
@@ -234,16 +234,16 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 47)
         {
-            question.text = "Why are red pandas endangered?";
+            question.text = "Which is NOT a reason red pandas are endangered?";
         }
         //Clouded Leopard
         if (PlayerPrefs.GetInt("Question") == 48)
         {
-            question.text = "What do clouded leopards use their canine teeth to capture and kill?";
+            question.text = "What do clouded leopards NOT use their canine teeth to capture and kill?";
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            question.text = "What do the clouded leopards’ wide paws allow them to do?";
+            question.text = "Clouded leopards are between large and small cats, making them a ______ _______.";
         }
         //Ring-tailed Lemur
         if (PlayerPrefs.GetInt("Question") == 50)
@@ -288,7 +288,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 59)
         {
-            question.text = "Why are spider monkeys at risk?";
+            question.text = "Which is NOT a reason spider monkeys at risk?";
         }
         //Cape Porcupine
         if (PlayerPrefs.GetInt("Question") == 60)
@@ -297,7 +297,7 @@ public class QC : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            question.text = "Where would you NOT find a porcupine?";
+            question.text = "What kind of mammals are porcupines?";
         }
         //Baird's Tapir and Crested Screamer
         if (PlayerPrefs.GetInt("Question") == 62)

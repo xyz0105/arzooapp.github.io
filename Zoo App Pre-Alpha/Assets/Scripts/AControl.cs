@@ -50,13 +50,13 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "Announce location";
+            answer.text = "Black";
             correctanswer = false;
         }
         //Red River Hog
         if (PlayerPrefs.GetInt("Question") == 6)
         {
-            answer.text = "Europe";
+            answer.text = "Hides in red rivers";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 7)
@@ -116,7 +116,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "They spend time away from other members except to mate and raise young.";
+            answer.text = "Keratin";
             correctanswer = true;
         }
         //Kangaroo
@@ -155,7 +155,7 @@ public class AControl : MonoBehaviour
         //Grey crowned crane
         if (PlayerPrefs.GetInt("Question") == 24)
         {
-            answer.text = "Population expansion";
+            answer.text = "Habitat increase";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 25)
@@ -193,13 +193,13 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            answer.text = "Rainforests";
+            answer.text = "Spring";
             correctanswer = false;
         }
         //Sulcata Tortoise
         if (PlayerPrefs.GetInt("Question") == 32)
         {
-            answer.text = "Habitat loss";
+            answer.text = "Forest fires";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 33)
@@ -248,7 +248,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 41)
         {
-            answer.text = "Endangered";
+            answer.text = "World wildlife fund";
             correctanswer = false;
         }
         //Guinea Pig
@@ -287,12 +287,12 @@ public class AControl : MonoBehaviour
         //Clouded Leopard
         if (PlayerPrefs.GetInt("Question") == 48)
         {
-            answer.text = "Deer";
-            correctanswer = false;
+            answer.text = "Red pandas";
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            answer.text = "All of the above";
+            answer.text = "bridging species";
             correctanswer = true;
         }
         //Ring-tailed Lemur
@@ -358,7 +358,7 @@ public class AControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            answer.text = "Savannah";
+            answer.text = "Primates";
             correctanswer = false;
         }
         //Bard's Tapir and Crested Screamer

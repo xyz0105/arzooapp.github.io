@@ -50,13 +50,13 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "All of the above";
-            correctanswer = true;
+            answer.text = "Gray";
+            correctanswer = false;
         }
         //Red River Hog
         if (PlayerPrefs.GetInt("Question") == 6)
         {
-            answer.text = "North America";
+            answer.text = "Sharp tusks";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 7)
@@ -116,7 +116,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "They roam in small clutters.";
+            answer.text = "Ivory";
             correctanswer = false;
         }
         //Kangaroo
@@ -156,7 +156,7 @@ public class DControl : MonoBehaviour
         if (PlayerPrefs.GetInt("Question") == 24)
         {
             answer.text = "All of the above";
-            correctanswer = true;
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 25)
         {
@@ -188,7 +188,7 @@ public class DControl : MonoBehaviour
         //Zebra
         if (PlayerPrefs.GetInt("Question") == 30)
         {
-            answer.text = "They can hide from the insects.";
+            answer.text = "Spring and Summer";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 31)
@@ -200,7 +200,7 @@ public class DControl : MonoBehaviour
         if (PlayerPrefs.GetInt("Question") == 32)
         {
             answer.text = "All of the above";
-            correctanswer = true;
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 33)
         {
@@ -210,7 +210,7 @@ public class DControl : MonoBehaviour
         //Sumatran Tiger
         if (PlayerPrefs.GetInt("Question") == 34)
         {
-            answer.text = "All of the above";
+            answer.text = "Deadly diseases";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 35)
@@ -248,7 +248,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 41)
         {
-            answer.text = "Least concern";
+            answer.text = "Conservation International";
             correctanswer = false;
         }
         //Guinea Pig
@@ -281,18 +281,18 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 47)
         {
-            answer.text = "All of the above";
-            correctanswer = true;
+            answer.text = "Increase in human need for animal grazing land";
+            correctanswer = false;
         }
         //Clouded Leopard
         if (PlayerPrefs.GetInt("Question") == 48)
         {
-            answer.text = "All of the above";
-            correctanswer = true;
+            answer.text = "Deer";
+            correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            answer.text = "Suspend itself by its hind feet";
+            answer.text = "inter species";
             correctanswer = false;
         }
         //Ring-tailed Lemur
@@ -347,8 +347,8 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 59)
         {
-            answer.text = "All of the above";
-            correctanswer = true;
+            answer.text = "Pet trade";
+            correctanswer = false;
         }
         //Cape Porcupine
         if (PlayerPrefs.GetInt("Question") == 60)
@@ -358,7 +358,7 @@ public class DControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            answer.text = "Forests";
+            answer.text = "Insectivors";
             correctanswer = false;
         }
         //Bard's Tapir and Crested Screamer

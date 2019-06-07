@@ -50,13 +50,13 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "Strengthen bonds";
+            answer.text = "Brown";
             correctanswer = false;
         }
         //Red River Hog
         if (PlayerPrefs.GetInt("Question") == 6)
         {
-            answer.text = "Asia";
+            answer.text = "Black ears";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 7)
@@ -116,7 +116,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "They spend absolutely all their time alone.";
+            answer.text = "Melanin";
             correctanswer = false;
         }
         //Kangaroo
@@ -155,7 +155,7 @@ public class BControl : MonoBehaviour
         //Grey crowned crane
         if (PlayerPrefs.GetInt("Question") == 24)
         {
-            answer.text = "Capture for pet trade and hunting";
+            answer.text = "Overpopulation";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 25)
@@ -193,13 +193,13 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            answer.text = "Savannahs";
-            correctanswer = true;
+            answer.text = "Fall";
+            correctanswer = false;
         }
         //Sulcata Tortoise
         if (PlayerPrefs.GetInt("Question") == 32)
         {
-            answer.text = "Overgrazing";
+            answer.text = "Flooding";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 33)
@@ -248,7 +248,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 41)
         {
-            answer.text = "Vulnerable";
+            answer.text = "Species Survival Plan";
             correctanswer = true;
         }
         //Guinea Pig
@@ -292,7 +292,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            answer.text = "Run down the tree head first";
+            answer.text = "Middle cat";
             correctanswer = false;
         }
         //Ring-tailed Lemur
@@ -347,7 +347,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 59)
         {
-            answer.text = "Pet trade";
+            answer.text = "Invasive species";
             correctanswer = false;
         }
         //Cape Porcupine
@@ -358,7 +358,7 @@ public class BControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            answer.text = "Tundra";
+            answer.text = "Rodents";
             correctanswer = true;
         }
         //Bard's Tapir and Crested Screamer

@@ -50,13 +50,13 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 5)
         {
-            answer.text = "Identify individuals";
-            correctanswer = false;
+            answer.text = "Cream";
+            correctanswer = true;
         }
         //Red River Hog
         if (PlayerPrefs.GetInt("Question") == 6)
         {
-            answer.text = "Africa";
+            answer.text = "White stripe on back";
             correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 7)
@@ -116,7 +116,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 17)
         {
-            answer.text = "They hang out in large groups with a male leading females and chicks.";
+            answer.text = "Chitin";
             correctanswer = false;
         }
         //Kangaroo
@@ -156,7 +156,7 @@ public class CControl : MonoBehaviour
         if (PlayerPrefs.GetInt("Question") == 24)
         {
             answer.text = "Being viewed as agricultural pests";
-            correctanswer = false;
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 25)
         {
@@ -193,14 +193,14 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            answer.text = "Tundras";
-            correctanswer = false;
+            answer.text = "Any time";
+            correctanswer = true;
         }
         //Sulcata Tortoise
         if (PlayerPrefs.GetInt("Question") == 32)
         {
-            answer.text = "Pet trade";
-            correctanswer = false;
+            answer.text = "Pet trade and habitat loss";
+            correctanswer = true;
         }
         if (PlayerPrefs.GetInt("Question") == 33)
         {
@@ -248,7 +248,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 41)
         {
-            answer.text = "Near threatened";
+            answer.text = "National Wildlife Federation";
             correctanswer = false;
         }
         //Guinea Pig
@@ -281,8 +281,8 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 47)
         {
-            answer.text = "Increase in human need for animal grazing land";
-            correctanswer = false;
+            answer.text = "Poisoning";
+            correctanswer = true;
         }
         //Clouded Leopard
         if (PlayerPrefs.GetInt("Question") == 48)
@@ -292,7 +292,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            answer.text = "Climb on horizontal branches with its back hanging toward the gound";
+            answer.text = "Pons connector;
             correctanswer = false;
         }
         //Ring-tailed Lemur
@@ -358,7 +358,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 61)
         {
-            answer.text = "Scrubland";
+            answer.text = "Carnivores";
             correctanswer = false;
         }
         //Bard's Tapir and Crested Screamer
