@@ -7,7 +7,7 @@ public class InactivityScript : MonoBehaviour
 {
     
     public CanvasGroup canvas;
-    
+    private bool faded;
     
     public bool bob;
     
@@ -26,51 +26,54 @@ public class InactivityScript : MonoBehaviour
     void Update()
     {
         //touches = Input.touchCount;
-        if(Input.touchCount > 0 || bob == true) {  FadeImage(false); }
+        if(Input.touchCount > 0 && faded == true) {  FadeImage(false); faded = false; }
        
     }
 
    public void FadeImage(bool fadeAway)
     {
-        print("coroutine runs");
+
         // fade from opaque to transparent
         if (fadeAway)
         {
 
 
             StartCoroutine(wait());
-            // loop over 1 second backwards
-            
+            for (float i = 1; i >= 0; i -= Time.deltaTime)
+            {
+                // set color with i as alpha
+
+
+                canvas.alpha = i;
+                // loop over 1 second backwards
+
+            }
         }
         // fade from transparent to opaque
         else
         {
-            
+
             // loop over 1 second
             for (float i = 0; i <= 1; i += 0.01f)
             {
-                
+
                 canvas.alpha = i;
-                
-                
-               
+
+
+
             }
         }
     }
     
      IEnumerator wait() {
         yield return new WaitForSecondsRealtime(0.5f);
-        for (float i = 1; i >= 0; i -= Time.deltaTime)
-            {
-                // set color with i as alpha
-               
-                
-                    canvas.alpha = i;
 
+        faded = true;
             
                     
                    
                 
                 
-            }}
+            }
 }
+
