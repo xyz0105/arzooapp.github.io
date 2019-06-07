@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Cassowary3" size="1.000000 0.201794" />
+    <ImageTarget name="Cassowary2" size="1.000000 0.160406" />
+    <ImageTarget name="RingTailedLemur2" size="1.000000 0.800000" />
+    <ImageTarget name="RhinoHornbill2" size="1.000000 0.271605" />
+    <ImageTarget name="RedLemur2" size="1.000000 0.373737" />
+    <ImageTarget name="Kangaroo3" size="1.000000 0.305405" />
+    <ImageTarget name="Giraffe3" size="1.000000 0.125587" />
+    <ImageTarget name="Giraffe2" size="1.000000 0.448578" />
     <ImageTarget name="Cape_Porcupine" size="1.000000 0.315166" />
     <ImageTarget name="Ring_Tailed_Lemur" size="1.000000 0.253642" />
     <ImageTarget name="Clouded_Leopard" size="1.000000 0.765269" />
