@@ -525,10 +525,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156e54def9488744687de944ccedb792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalname: 
+  animalname: Rhino
   animalmodels: []
-  slider: {fileID: 0}
-  sizeslider: {fileID: 0}
+  slider: {fileID: 1276044500}
+  sizeslider: {fileID: 1376669728}
 --- !u!23 &344233650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2043,13 +2043,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425351468}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 952499076}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
 --- !u!114 &1425351470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2062,10 +2062,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156e54def9488744687de944ccedb792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalname: 
+  animalname: Panda
   animalmodels: []
-  slider: {fileID: 0}
-  sizeslider: {fileID: 0}
+  slider: {fileID: 1276044500}
+  sizeslider: {fileID: 1376669728}
 --- !u!23 &1425351471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2529,13 +2529,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2037347703}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 20, y: 20, z: 20}
   m_Children: []
   m_Father: {fileID: 952499076}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
 --- !u!114 &2037347705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2548,10 +2548,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 156e54def9488744687de944ccedb792, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalname: 
+  animalname: Leopard
   animalmodels: []
-  slider: {fileID: 0}
-  sizeslider: {fileID: 0}
+  slider: {fileID: 1276044500}
+  sizeslider: {fileID: 1376669728}
 --- !u!23 &2037347706
 MeshRenderer:
   m_ObjectHideFlags: 0
