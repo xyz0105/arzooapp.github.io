@@ -292,7 +292,7 @@ public class CControl : MonoBehaviour
         }
         if (PlayerPrefs.GetInt("Question") == 49)
         {
-            answer.text = "Pons connector;
+            answer.text = "Pons connector";
             correctanswer = false;
         }
         //Ring-tailed Lemur
