@@ -12,29 +12,7 @@ public class ModelControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Store actual objects inside the initialized variable
-        Rhino = GameObject.Find("Rhino");
-        Panda = GameObject.Find("Panda");
-        Leopard = GameObject.Find("Leopard");
-
-        if (PlayerPrefs.GetInt("ModelNumber") == 1)
-        {
-            Rhino.SetActive(true);
-            Panda.SetActive(false);
-            Leopard.SetActive(false);
-        }
-        if (PlayerPrefs.GetInt("ModelNumber") == 2)
-        {
-            Rhino.SetActive(false);
-            Panda.SetActive(true);
-            Leopard.SetActive(false);
-        }
-        if (PlayerPrefs.GetInt("ModelNumber") == 3)
-        {
-            Rhino.SetActive(false);
-            Panda.SetActive(false);
-            Leopard.SetActive(true);
-        }
+        
     }
 
     public void ChooseProjection(int modelnumber)
