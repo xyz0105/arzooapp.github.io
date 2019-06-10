@@ -188,12 +188,12 @@ public class DControl : MonoBehaviour
         //Zebra
         if (PlayerPrefs.GetInt("Question") == 30)
         {
-            answer.text = "Spring and Summer";
+            answer.text = "It's easier for them to find food";
             correctanswer = false;
         }
         if (PlayerPrefs.GetInt("Question") == 31)
         {
-            answer.text = "Wetlands";
+            answer.text = "Spring and Summer";
             correctanswer = false;
         }
         //Sulcata Tortoise

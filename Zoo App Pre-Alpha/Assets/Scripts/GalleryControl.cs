@@ -51,8 +51,8 @@ public class GalleryControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.SetInt("Unlocked24", 1);
-        PlayerPrefs.SetInt("Unlocked25", 1);
+       /* PlayerPrefs.SetInt("Unlocked24", 1);
+        PlayerPrefs.SetInt("Unlocked25", 1);*/
         //Make sure ResetConfirm pop-up window starts out closed
         ResetConfirm.SetActive(false);
 
@@ -333,7 +333,7 @@ public class GalleryControl : MonoBehaviour
         {
             print("Unlocked" + i + ": " + PlayerPrefs.GetInt("Unlocked" + i));
         }
-        StartCoroutine(pandaleopardpatch());
+      //  StartCoroutine(pandaleopardpatch());
     }
 
     public void ScrollToTop()
@@ -346,8 +346,8 @@ public class GalleryControl : MonoBehaviour
         VScrollbar.value = 0;
     }
 
-    IEnumerator pandaleopardpatch() { yield return new WaitForSeconds(0.5f);
+   /* IEnumerator pandaleopardpatch() { yield return new WaitForSeconds(0.5f);
         if (PlayerPrefs.GetInt("Unlocked24") == 1){ Panda.SetActive(true); }
         if (PlayerPrefs.GetInt("Unlocked24") == 1) { Leopard.SetActive(true); }
-    }
+    }*/
 }
